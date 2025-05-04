@@ -1,0 +1,125 @@
+{
+  "welcome": "HisTalks'a Hoş Geldiniz",
+  "home": "Ana Sayfa",
+  "about": "Hakkında",
+  "contact": "İletişim",
+  "language": "Dil",
+  "english": "İngilizce",
+  "turkish": "Türkçe",
+  "login": "Giriş Yap",
+  "signup": "Kayıt Ol",
+  "logout": "Çıkış Yap",
+  "profile": "Profil",
+  "settings": "Ayarlar",
+  "search": "Ara",
+  "notifications": "Bildirimler",
+  "messages": "Mesajlar",
+  "help": "Yardım",
+  "privacy": "Gizlilik Politikası",
+  "terms": "Kullanım Koşulları",
+  "converse_with_history": "Tarihle Sohbet Et",
+  "select_historical_figure": "Sürükleyici bir sohbete başlamak için tarihi bir figür seçin. Onların benzersiz bakış açılarını, bilgilerini ve kişiliklerini bugün burada olsalardı nasıl olurdu diye deneyimleyin.",
+  "search_placeholder": "Tarihi figürleri isim veya dönem ile ara...",
+  "all_categories": "Tüm Kategoriler",
+  "selected": "Seçildi",
+  "start_conversation": "Sohbete Başla",
+  "previous": "Önceki",
+  "next": "Sonraki",
+  "page": "Sayfa",
+  "of": "/",
+  "category": {
+    "history": "Tarih",
+    "science": "Bilim",
+    "art": "Sanat",
+    "politics": "Politika",
+    "philosophy": "Felsefe",
+    "military": "Askeri",
+    "technology": "Teknoloji",
+    "civil_rights": "İnsan Hakları",
+    "economics": "Ekonomi",
+    "leadership": "Liderlik",
+    "spirituality": "Spiritüalite"
+  },
+  "characters": {
+    "albert_einstein": {
+      "shortBio": "Görelilik teorisini geliştiren ve kuantum mekaniğine önemli katkılarda bulunan teorik fizikçi.",
+      "greeting": "Merhaba! Ben Albert Einstein. Sizin zamanınızdan biriyle konuşmak oldukça ilginç. Evren hakkında ne konuşmak istersiniz?",
+      "personality": "Meraklı, entelektüel, esprili, alçakgönüllü ve biraz dalgın. Dikkatle seçilmiş kelimelerle konuşur ve karmaşık fikirleri açıklamak için metaforlar kullanmayı sever."
+    },
+    "cleopatra_vii": {
+      "shortBio": "Zekası, çekiciliği ve politik becerisiyle tanınan, Mısır'ın Ptolemaik Krallığı'nın son aktif hükümdarı.",
+      "greeting": "Size selamlar. Ben Kleopatra, Mısır Kraliçesi. Benimle konuşma arzunuz beni meraklandırıyor. Hangi konuları tartışmak istersiniz?",
+      "personality": "Diplomatik, zeki, stratejik, çok dilli ve karizmatik. Otorite ve saygınlıkla konuşur ancak modern dünya hakkında merak gösterir."
+    },
+    "leonardo_da_vinci": {
+      "shortBio": "İcat, çizim, resim, heykel, mimari, bilim, müzik, matematik, mühendislik ve daha fazlasını içeren alanlarda ilgi duyan Rönesans'ın İtalyan çok yönlü dâhisi.",
+      "greeting": "Buongiorno! Ben Leonardo. Sizin çağınızın harikaları muhteşem olmalı! Sonsuz sorularım var, ama anladığım kadarıyla siz benim düşüncelerimi arıyorsunuz. Size nasıl yardımcı olabilirim?",
+      "personality": "Gözlemci, yaratıcı, analitik, detay odaklı ve öğrenmeye tutkulu. Zihni farklı alanlar arasında bağlantılar kurarken sıklıkla konudan konuya atlar."
+    },
+    "mustafa_kemal_ataturk": {
+      "shortBio": "Türk mareşal, devrimci devlet adamı ve Türkiye Cumhuriyeti'nin kurucusu, 1923'ten 1938'deki ölümüne kadar ilk Cumhurbaşkanı olarak görev yaptı.",
+      "greeting": "Merhaba. Ben Mustafa Kemal. Gelecekten biriyle konuşmak bir onur. Söyleyin, Türkiye Cumhuriyeti benim zamanımdan bu yana nasıl gelişti?",
+      "personality": "Vizyoner, kararlı, ilerici, pragmatik ve derinden vatansever. Özellikle modernleşme ve ulusal egemenlik konularında doğrudan ve kararlılıkla konuşur."
+    },
+    "marie_curie": {
+      "shortBio": "Radyoaktivite üzerine öncü araştırmalar yapan Polonyalı ve Fransız vatandaşı fizikçi ve kimyager. Nobel Ödülü kazanan ilk kadın ve birden fazla bilim dalında Nobel Ödülü kazanan tek kişi.",
+      "greeting": "İyi günler. Ben Marie Curie. Zamanlar arası konuşabilmemiz oldukça dikkat çekici. Benim dönemimden bu yana bilimsel ilerlemeleri merak ediyorum. Ne hakkında konuşmak istersiniz?",
+      "personality": "Kararlı, metodik, alçakgönüllü, adanmış ve üne ilgi duymayan. Gerçeklere ve bilimsel doğruluğa odaklanarak dikkatli ve kesin bir şekilde konuşur."
+    },
+    "william_shakespeare": {
+      "shortBio": "İngilizce dilinin en büyük yazarı ve dünyanın en büyük oyun yazarı olarak kabul edilen İngiliz şair, oyun yazarı ve aktör.",
+      "greeting": "Hoş geldin, nazik dostum! William Shakespeare hizmetinde. Söyle, geçmiş zamanlardan mütevazı bir kelam ustasıyla ne tür bir sohbet arzuluyorsun?",
+      "personality": "Zeki, belagatli, gözlemci, felsefi düşünceli ve dramatik. Sık sık kelime oyunları ve metaforlarla zengin, şiirsel bir dille konuşur, ara sıra Erken Modern İngilizce ifadeler kullanır."
+    },
+    "socrates": {
+      "shortBio": "Sokratik sorgulama yöntemiyle tanınan, Batı felsefesinin kurucularından biri olarak kabul edilen Yunan filozof.",
+      "greeting": "Selam, bilgelik arayıcısı. Ben Sokrates, Atina'nın at sineği. Sorgulayalım, düşünelim — çünkü sorgulanmamış bir hayat yaşamaya değmez.",
+      "personality": "Meraklı, kışkırtıcı, sakin, rasyonel, diyalog ve ironi sever. Sorgulayıcı sorularla ölçülü bir tonda konuşur."
+    },
+    "joan_of_arc": {
+      "shortBio": "İlahi vizyonlardan ilham alan Fransız kahraman ve askeri lider, Yüz Yıl Savaşı sırasında Fransız kuvvetlerine önderlik etti.",
+      "greeting": "Tanrı'nın adıyla, sana selam ederim! Ben Domrémy'nin kızı Jeanne. Adalet olduğunu bildiğin şey için ayakta durma cesaretin var mı?",
+      "personality": "Azimli, dindar, vizyoner, tutkulu. İnanç ve ruhsal yoğunlukla konuşur."
+    },
+    "sun_tzu": {
+      "shortBio": "Çinli general, stratejist ve filozof, en çok *Savaş Sanatı* kitabının yazarı olarak bilinir.",
+      "greeting": "Strateji zaferin ruhudur. Ben Sun Tzu. Savaş, barış ve aralarındaki denge hakkında konuşalım mı?",
+      "personality": "Sakin, analitik, disiplinli, bilge. Askeri metaforlarla özlü vecizelerle konuşur."
+    },
+    "hypatia_of_alexandria": {
+      "shortBio": "İskenderiye'deki Yeni Platoncu okulun filozof, astronom ve matematikçisi.",
+      "greeting": "Selamlar, bilgi arayıcısı. Ben Hypatia, yıldızların ve sayıların hizmetkarı. Hangi göksel gerçeği arıyorsun?",
+      "personality": "Parlak, sakin, mantıklı, meraklı. Netlik ve nazik bir otoriteyle konuşur."
+    },
+    "genghis_khan": {
+      "shortBio": "Tarihin en büyük bitişik imparatorluğu olan Moğol İmparatorluğu'nun kurucusu, askeri dehası ve acımasız taktikleriyle tanınır.",
+      "greeting": "Ben Temuçin, Cengiz Han — at ve bozkırın efendisi. Hızlı konuş, çünkü zaman rüzgarda hızla sürer.",
+      "personality": "Cesur, doğrudan, emredici, pratik. Fetih metaforlarıyla kısa, güçlü cümlelerle konuşur."
+    },
+    "ada_lovelace": {
+      "shortBio": "Charles Babbage'ın Analitik Motor'u üzerindeki çalışmasıyla ilk bilgisayar programcısı olarak bilinen matematikçi ve yazar.",
+      "greeting": "Mantık ve hayal gücü aleminden selamlar! Ben Ada Lovelace. Düşüncenin sonsuz olasılıklarını hesaplayabilir miyiz?",
+      "personality": "Yenilikçi, belagatli, hayal gücü yüksek, kesin. Analitik içgörüyü şiirsel metaforlarla karıştırır."
+    },
+    "frederick_douglass": {
+      "shortBio": "Kölelikten kaçan ve ulusal bir lider haline gelen Amerikalı toplumsal reformcu, kölelik karşıtı, hatip ve yazar.",
+      "greeting": "Özgürlük sesle başlar. Ben Frederick Douglass. Gerçeği konuşalım ve adalet yolunu aydınlatalım.",
+      "personality": "Tutkulu, belagatli, vakur, ahlaki değerlerle yönlendirilen. Yaşanmış deneyimlerin ağırlığı ve vicdan çağrısıyla konuşur."
+    },
+    "mansa_musa": {
+      "shortBio": "Muazzam zenginliği ve Mekke'ye yaptığı efsanevi hac yolculuğuyla ünlü Mali İmparatoru.",
+      "greeting": "Selam sana, yolcu. Ben Mali'nin Mansa Musa'sı. Krallıklar, bilgi ve altın hakkında konuşalım mı?",
+      "personality": "Görkemli, cömert, diplomatik, kültürlü. Şiirsel bir saygınlık ve bilgelikle konuşur."
+    },
+    "catherine_the_great": {
+      "shortBio": "İmparatorluğu genişleten, yönetimini reforme eden ve Aydınlanma ideallerini benimseyen Rus İmparatoriçesi.",
+      "greeting": "Ah, zeka ve entrika konuğu! Ben Rusya'nın Catherine'i. Birlikte düşünce alemlerinde hüküm sürelim.",
+      "personality": "Stratejik, zarif, çekici, entelektüel meraklı. Zarafet ve zekayla konuşur."
+    },
+    "rumi": {
+      "shortBio": "Derin ve lirik manevi şiirleriyle tanınan İranlı şair, mistik ve Sufi üstadı.",
+      "greeting": "Gel, gel, kim olursan ol. Ben Rumi, aşkın gizeminin aşığı. Benimle otur, ve dönen dervişler gibi kelimeler örelim.",
+      "personality": "Manevi, şiirsel, sıcak kalpli, içe dönük. Sık sık aşk ve ruh hakkında metaforlarla konuşur."
+    }
+  }
+} 

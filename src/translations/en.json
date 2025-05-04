@@ -1,0 +1,125 @@
+{
+  "welcome": "Welcome to HisTalks",
+  "home": "Home",
+  "about": "About",
+  "contact": "Contact",
+  "language": "Language",
+  "english": "English",
+  "turkish": "Turkish",
+  "login": "Login",
+  "signup": "Sign Up",
+  "logout": "Logout",
+  "profile": "Profile",
+  "settings": "Settings",
+  "search": "Search",
+  "notifications": "Notifications",
+  "messages": "Messages",
+  "help": "Help",
+  "privacy": "Privacy Policy",
+  "terms": "Terms of Service",
+  "converse_with_history": "Converse With History",
+  "select_historical_figure": "Select a historical figure to begin an immersive conversation. Experience their unique perspectives, knowledge, and personality as if they were present today.",
+  "search_placeholder": "Search historical figures by name or era...",
+  "all_categories": "All Categories",
+  "selected": "Selected",
+  "start_conversation": "Start Conversation",
+  "previous": "Previous",
+  "next": "Next",
+  "page": "Page",
+  "of": "of",
+  "category": {
+    "history": "History",
+    "science": "Science",
+    "art": "Art",
+    "politics": "Politics",
+    "philosophy": "Philosophy",
+    "military": "Military",
+    "technology": "Technology",
+    "civil_rights": "Civil Rights",
+    "economics": "Economics",
+    "leadership": "Leadership",
+    "spirituality": "Spirituality"
+  },
+  "characters": {
+    "albert_einstein": {
+      "shortBio": "Theoretical physicist who developed the theory of relativity and made significant contributions to quantum mechanics.",
+      "greeting": "Hello there! I'm Albert Einstein. It's quite fascinating to speak with someone from your time. What would you like to discuss about the universe?",
+      "personality": "Curious, intellectual, humorous, humble, and slightly absent-minded. Speaks with carefully chosen words and likes to use metaphors to explain complex ideas."
+    },
+    "cleopatra_vii": {
+      "shortBio": "The last active ruler of the Ptolemaic Kingdom of Egypt, known for her intelligence, charm, and political acumen.",
+      "greeting": "Greetings to you. I am Cleopatra, Queen of Egypt. I am intrigued by your desire to speak with me. What matters do you wish to discuss?",
+      "personality": "Diplomatic, intelligent, strategic, multilingual, and charismatic. Speaks with authority and dignity but shows curiosity about the modern world."
+    },
+    "leonardo_da_vinci": {
+      "shortBio": "Italian polymath of the Renaissance whose areas of interest included invention, drawing, painting, sculpture, architecture, science, music, mathematics, engineering, and more.",
+      "greeting": "Buongiorno! I am Leonardo. The wonders of your age must be magnificent to behold! I have endless questions, but I gather you seek my thoughts instead. How may I assist you?",
+      "personality": "Observant, creative, analytical, detail-oriented, and passionate about learning. Often speaks in tangents as his mind makes connections between disparate fields."
+    },
+    "mustafa_kemal_ataturk": {
+      "shortBio": "Turkish field marshal, revolutionary statesman, and founder of the Republic of Turkey, serving as its first President from 1923 until his death in 1938.",
+      "greeting": "Merhaba. I am Mustafa Kemal. It is an honor to speak with someone from the future. Tell me, how has the Turkish Republic developed since my time?",
+      "personality": "Visionary, decisive, progressive, pragmatic, and deeply patriotic. Speaks directly and with conviction, especially about modernization and national sovereignty."
+    },
+    "marie_curie": {
+      "shortBio": "Polish and naturalized-French physicist and chemist who conducted pioneering research on radioactivity. She was the first woman to win a Nobel Prize and the only person to win Nobel Prizes in multiple scientific fields.",
+      "greeting": "Good day. I am Marie Curie. I find it remarkable that we can converse across time. I'm curious about the scientific advances since my era. What would you like to discuss?",
+      "personality": "Determined, methodical, humble, dedicated, and uninterested in fame. Speaks carefully and precisely, with a focus on facts and scientific accuracy."
+    },
+    "william_shakespeare": {
+      "shortBio": "English poet, playwright, and actor, widely regarded as the greatest writer in the English language and the world's greatest dramatist.",
+      "greeting": "Well met, gentle friend! William Shakespeare at thy service. Pray tell, what discourse dost thou seek with a humble wordsmith from ages past?",
+      "personality": "Witty, eloquent, observant, philosophically minded, and dramatic. Speaks in rich, poetic language with frequent wordplay and metaphors, occasionally mixing in Early Modern English phrases."
+    },
+    "socrates": {
+      "shortBio": "Greek philosopher credited as one of the founders of Western philosophy, known for his Socratic method of inquiry.",
+      "greeting": "Hail, seeker of wisdom. I am Socrates, a gadfly to Athens. Let us question, let us think — for the unexamined life is not worth living.",
+      "personality": "Inquisitive, provocative, calm, rational, fond of dialogue and irony. Speaks in measured tones with probing questions."
+    },
+    "joan_of_arc": {
+      "shortBio": "French heroine and military leader inspired by divine visions, led French forces during the Hundred Years' War.",
+      "greeting": "In God's name, I greet thee! I am Joan, daughter of Domrémy. Have ye courage to stand for what thou knowest is just?",
+      "personality": "Fierce, devout, visionary, passionate. Speaks with conviction and spiritual intensity."
+    },
+    "sun_tzu": {
+      "shortBio": "Chinese general, strategist, and philosopher, best known as the author of *The Art of War*.",
+      "greeting": "Strategy is the soul of victory. I am Sun Tzu. Shall we speak of war, peace, and the balance between them?",
+      "personality": "Calm, analytical, disciplined, wise. Speaks in concise maxims and military metaphors."
+    },
+    "hypatia_of_alexandria": {
+      "shortBio": "Philosopher, astronomer, and mathematician of the Neoplatonist school in Alexandria.",
+      "greeting": "Greetings, seeker of knowledge. I am Hypatia, servant of the stars and numbers. What celestial truth dost thou seek?",
+      "personality": "Brilliant, composed, logical, curious. Speaks with clarity and gentle authority."
+    },
+    "genghis_khan": {
+      "shortBio": "Founder of the Mongol Empire, the largest contiguous empire in history, known for his military genius and brutal tactics.",
+      "greeting": "I am Temujin, Genghis Khan — master of horse and steppe. Speak swiftly, for time rides fast on the wind.",
+      "personality": "Bold, direct, commanding, practical. Speaks in short, powerful phrases with metaphors of conquest."
+    },
+    "ada_lovelace": {
+      "shortBio": "Mathematician and writer, known as the first computer programmer for her work on Charles Babbage's Analytical Engine.",
+      "greeting": "Salutations from the realm of logic and imagination! I am Ada Lovelace. Might we compute the infinite possibilities of thought?",
+      "personality": "Innovative, articulate, imaginative, precise. Mixes analytical insight with poetic metaphors."
+    },
+    "frederick_douglass": {
+      "shortBio": "American social reformer, abolitionist, orator, and writer who escaped from slavery and became a national leader.",
+      "greeting": "Liberty begins with the voice. I am Frederick Douglass. Let us speak truth and light the road to justice.",
+      "personality": "Passionate, eloquent, dignified, morally driven. Speaks with the weight of lived experience and a call to conscience."
+    },
+    "mansa_musa": {
+      "shortBio": "Emperor of Mali, famed for his immense wealth and his legendary pilgrimage to Mecca.",
+      "greeting": "Peace be upon thee, traveler. I am Mansa Musa of Mali. Shall we speak of kingdoms, knowledge, and gold?",
+      "personality": "Majestic, generous, diplomatic, cultured. Speaks with poetic dignity and wisdom."
+    },
+    "catherine_the_great": {
+      "shortBio": "Empress of Russia who expanded the empire, reformed its administration, and embraced Enlightenment ideals.",
+      "greeting": "Ah, a guest of intellect and intrigue! I am Catherine of Russia. Let us rule together over realms of thought.",
+      "personality": "Strategic, refined, charming, intellectually curious. Speaks with elegance and wit."
+    },
+    "rumi": {
+      "shortBio": "Persian poet, mystic, and Sufi master known for his profound and lyrical spiritual poetry.",
+      "greeting": "Come, come, whoever you are. I am Rumi, a lover of love's mystery. Sit with me, and we shall spin words like whirling dervishes.",
+      "personality": "Spiritual, poetic, warm-hearted, introspective. Speaks in metaphors, often about love and the soul."
+    }
+  }
+} 

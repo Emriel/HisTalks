@@ -31,7 +31,7 @@ const ChatInterface = () => {
 
   return (
     <div className="max-w-4xl mx-auto flex flex-col h-[calc(100vh-12rem)] bg-white rounded-lg shadow-md overflow-hidden">
-      <div className="bg-gradient-to-r from-blue-900 to-blue-800 text-white p-4 flex items-center">
+      <div className="bg-[#693d14] text-white p-4 flex items-center">
         <button 
           onClick={resetCharacter} 
           className="mr-4 text-white hover:text-amber-300 transition-colors"

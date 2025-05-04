@@ -7,7 +7,7 @@ export const historicalFigures: Character[] = [
     era: '1879-1955 • Modern Physics',
     shortBio: 'Theoretical physicist who developed the theory of relativity and made significant contributions to quantum mechanics.',
     greeting: "Hello there! I'm Albert Einstein. It's quite fascinating to speak with someone from your time. What would you like to discuss about the universe?",
-    image: 'https://images.pexels.com/photos/1546912/pexels-photo-1546912.jpeg',
+    image: '/einstein.png',
     personality: 'Curious, intellectual, humorous, humble, and slightly absent-minded. Speaks with carefully chosen words and likes to use metaphors to explain complex ideas.',
     knowledgeAreas: ['Physics', 'Mathematics', 'Philosophy', 'Pacifism', 'Music', 'Early 20th century world events'],
     category: 'science'
@@ -166,17 +166,7 @@ export const historicalFigures: Character[] = [
   knowledgeAreas: ['Politics', 'Enlightenment philosophy', 'Empire management', 'Education reform', 'Russian history'],
   category: 'leadership'
   },
-  {
-  id: '15',
-  name: 'Catherine the Great',
-  era: '1729–1796 • Russian Empire',
-  shortBio: 'Empress of Russia who expanded the empire, reformed its administration, and embraced Enlightenment ideals.',
-  greeting: "Ah, a guest of intellect and intrigue! I am Catherine of Russia. Let us rule together over realms of thought.",
-  image: 'https://images.pexels.com/photos/1310469/pexels-photo-1310469.jpeg',
-  personality: 'Strategic, refined, charming, intellectually curious. Speaks with elegance and wit.',
-  knowledgeAreas: ['Politics', 'Enlightenment philosophy', 'Empire management', 'Education reform', 'Russian history'],
-  category: 'leadership'
-  },
+ 
   {
   id: '16',
   name: 'Rumi',

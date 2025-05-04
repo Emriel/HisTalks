@@ -9,12 +9,12 @@ const ChatMessage: React.FC<ChatMessageProps> = ({ message }) => {
   const isUser = message.sender === 'user';
   
   return (
-    <div className={`flex ${isUser ? 'justify-end' : 'justify-start'}`}>
-      <div 
-        className={`max-w-[80%] p-3 rounded-lg ${
-          isUser 
-            ? 'bg-blue-600 text-white rounded-br-none' 
-            : 'bg-white border border-gray-200 shadow-sm rounded-bl-none'
+    <div className={`flex ${message.sender === 'user' ? 'justify-end' : 'justify-start'} mb-4`}>
+      <div
+        className={`max-w-[80%] rounded-lg p-4 ${
+          message.sender === 'user'
+            ? 'bg-[#693d14] text-white'
+            : 'bg-slate-100 text-slate-800'
         }`}
       >
         {!isUser && (
