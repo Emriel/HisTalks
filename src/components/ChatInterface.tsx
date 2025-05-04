@@ -2,17 +2,27 @@ import React, { useState, useRef, useEffect } from 'react';
 import { useChatContext } from '../context/ChatContext';
 import ChatMessage from './ChatMessage';
 import { ArrowLeft, Send, Mic, MicOff } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
+import { Link, useNavigate } from 'react-router-dom';
 
 const ChatInterface = () => {
+  const { t } = useTranslation();
   const { messages, sendMessage, selectedCharacter, resetCharacter } = useChatContext();
   const [inputValue, setInputValue] = useState('');
   const [isListening, setIsListening] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
+  const recognitionRef = useRef<SpeechRecognition | null>(null);
+  const navigate = useNavigate();
 
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
   }, [messages]);
+
+  const handleBack = () => {
+    resetCharacter();
+    navigate('/');
+  };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -29,11 +39,23 @@ const ChatInterface = () => {
     setIsListening(!isListening);
   };
 
+  const getCharacterTranslationKey = (name: string) => {
+    return name
+      .toLowerCase()
+      .replace(/\s+/g, '_')
+      .replace(/[ç]/g, 'c')
+      .replace(/[ğ]/g, 'g')
+      .replace(/[ı]/g, 'i')
+      .replace(/[ö]/g, 'o')
+      .replace(/[ş]/g, 's')
+      .replace(/[ü]/g, 'u');
+  };
+
   return (
     <div className="max-w-4xl mx-auto flex flex-col h-[calc(100vh-12rem)] bg-white rounded-lg shadow-md overflow-hidden">
       <div className="bg-[#693d14] text-white p-4 flex items-center">
         <button 
-          onClick={resetCharacter} 
+          onClick={handleBack}
           className="mr-4 text-white hover:text-amber-300 transition-colors"
         >
           <ArrowLeft className="h-5 w-5" />
@@ -46,7 +68,9 @@ const ChatInterface = () => {
           />
           <div className="ml-3">
             <h2 className="font-serif font-bold">{selectedCharacter?.name}</h2>
-            <p className="text-xs opacity-80">{selectedCharacter?.era}</p>
+            <p className="text-xs opacity-80">
+              {selectedCharacter && t(`characters.${getCharacterTranslationKey(selectedCharacter.name)}.era`)}
+            </p>
           </div>
         </div>
       </div>
@@ -60,10 +84,10 @@ const ChatInterface = () => {
               className="h-20 w-20 rounded-full object-cover border-2 border-amber-400 mb-4"
             />
             <h3 className="text-xl font-serif font-medium text-blue-900 mb-2">
-              Begin Your Conversation with {selectedCharacter?.name}
+              {t('chat.begin_conversation')} {selectedCharacter?.name}
             </h3>
             <p className="max-w-md">
-              Ask a question, engage in debate, or simply say hello to start an immersive conversation with this historical figure.
+              {t('chat.start_message')}
             </p>
           </div>
         ) : (
@@ -76,37 +100,30 @@ const ChatInterface = () => {
         )}
       </div>
 
-      <form onSubmit={handleSubmit} className="p-4 bg-white border-t border-gray-200">
+      <form onSubmit={handleSubmit} className="p-4 border-t border-gray-200">
         <div className="flex items-center space-x-2">
-          <button 
-            type="button"
-            onClick={toggleVoiceInput}
-            className={`p-2.5 rounded-full ${
-              isListening 
-                ? 'bg-red-100 text-red-600 hover:bg-red-200' 
-                : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
-            }`}
-          >
-            {isListening ? <MicOff className="h-5 w-5" /> : <Mic className="h-5 w-5" />}
-          </button>
-          
           <input
             type="text"
             value={inputValue}
             onChange={(e) => setInputValue(e.target.value)}
-            className="flex-grow py-2.5 px-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-            placeholder={`Ask ${selectedCharacter?.name} a question...`}
+            placeholder={t('chat.input_placeholder')}
+            className="flex-grow px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#693d14] focus:border-[#693d14]"
             disabled={isLoading}
           />
-          
+          <button
+            type="button"
+            onClick={toggleVoiceInput}
+            className={`p-2 rounded-full ${
+              isListening ? 'bg-red-500 text-white' : 'bg-gray-100 text-gray-600'
+            } hover:bg-gray-200 transition-colors`}
+            title={t(isListening ? 'chat.voice_input.stop' : 'chat.voice_input.start')}
+          >
+            {isListening ? <MicOff className="h-5 w-5" /> : <Mic className="h-5 w-5" />}
+          </button>
           <button
             type="submit"
             disabled={isLoading || inputValue.trim() === ''}
-            className={`p-2.5 rounded-full bg-blue-600 text-white ${
-              isLoading || inputValue.trim() === '' 
-                ? 'opacity-50 cursor-not-allowed' 
-                : 'hover:bg-blue-700'
-            }`}
+            className="p-2 bg-[#693d14] text-white rounded-lg hover:bg-[#8b5a2b] transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
           >
             <Send className="h-5 w-5" />
           </button>

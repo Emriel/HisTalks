@@ -3,6 +3,7 @@ import { useChatContext } from '../context/ChatContext';
 import { Search, ChevronDown, X } from 'lucide-react';
 import { historicalFigures, categories } from '../data/characters';
 import { useTranslation } from 'react-i18next';
+import LanguageSwitcher from './LanguageSwitcher';
 
 const CharacterSelector = () => {
   const { selectCharacter } = useChatContext();
@@ -70,7 +71,7 @@ const CharacterSelector = () => {
           </div>
           <input
             type="text"
-            className="block w-full pl-10 pr-3 py-3 border border-gray-300 rounded-lg bg-white shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+            className="block w-full pl-10 pr-3 py-3 border border-gray-300 rounded-lg bg-white shadow-sm focus:outline-none focus:ring-2 focus:ring-[#693d14] focus:border-[#693d14]"
             placeholder={t('search_placeholder')}
             value={searchTerm}
             onChange={(e) => {
@@ -80,36 +81,39 @@ const CharacterSelector = () => {
           />
         </div>
         
-        <div className="relative">
-          <button
-            onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-            className="w-full md:w-48 px-4 py-3 bg-white border border-gray-300 rounded-lg shadow-sm text-left flex items-center justify-between hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-          >
-            <span className="text-gray-700">
-              {selectedCategories.length === 0 ? t('all_categories') : `${selectedCategories.length} ${t('selected')}`}
-            </span>
-            <ChevronDown className="h-5 w-5 text-gray-400" />
-          </button>
+        <div className="flex gap-2">
+          <div className="relative">
+            <button
+              onClick={() => setIsDropdownOpen(!isDropdownOpen)}
+              className="w-48 px-4 py-3 bg-white border border-gray-300 rounded-lg shadow-sm text-left flex items-center justify-between hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-[#693d14] focus:border-[#693d14]"
+            >
+              <span className="text-gray-700">
+                {selectedCategories.length === 0 ? t('all_categories') : `${selectedCategories.length} ${t('selected')}`}
+              </span>
+              <ChevronDown className="h-5 w-5 text-gray-400" />
+            </button>
 
-          {isDropdownOpen && (
-            <div className="absolute z-10 w-full mt-1 bg-white border border-gray-200 rounded-lg shadow-lg">
-              {categories.filter(cat => cat.id !== 'all').map((category) => (
-                <div
-                  key={category.id}
-                  className="px-4 py-2 hover:bg-gray-50 cursor-pointer flex items-center"
-                  onClick={() => toggleCategory(category.id)}
-                >
-                  <input
-                    type="checkbox"
-                    checked={selectedCategories.includes(category.id)}
-                    onChange={() => {}}
-                    className="h-4 w-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500"
-                  />
-                  <span className="ml-2 text-gray-700">{t(`category.${category.id}`)}</span>
-                </div>
-              ))}
-            </div>
-          )}
+            {isDropdownOpen && (
+              <div className="absolute z-10 w-48 mt-1 bg-white border border-gray-200 rounded-lg shadow-lg">
+                {categories.filter(cat => cat.id !== 'all').map((category) => (
+                  <div
+                    key={category.id}
+                    className="px-4 py-2 hover:bg-gray-50 cursor-pointer flex items-center"
+                    onClick={() => toggleCategory(category.id)}
+                  >
+                    <input
+                      type="checkbox"
+                      checked={selectedCategories.includes(category.id)}
+                      onChange={() => {}}
+                      className="h-4 w-4 text-[#693d14] rounded border-gray-300 focus:ring-[#693d14]"
+                    />
+                    <span className="ml-2 text-gray-700">{t(`category.${category.id}`)}</span>
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+          <LanguageSwitcher />
         </div>
       </div>
 

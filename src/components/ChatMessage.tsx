@@ -1,11 +1,13 @@
 import React from 'react';
 import { Message } from '../types';
+import { useTranslation } from 'react-i18next';
 
 interface ChatMessageProps {
   message: Message;
 }
 
 const ChatMessage: React.FC<ChatMessageProps> = ({ message }) => {
+  const { t, i18n } = useTranslation();
   const isUser = message.sender === 'user';
   
   return (
@@ -26,7 +28,10 @@ const ChatMessage: React.FC<ChatMessageProps> = ({ message }) => {
           {message.text}
         </div>
         <div className={`text-xs mt-1 text-right ${isUser ? 'text-blue-200' : 'text-slate-400'}`}>
-          {message.timestamp.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
+          {message.timestamp.toLocaleTimeString(i18n.language === 'tr' ? 'tr-TR' : 'en-US', { 
+            hour: '2-digit', 
+            minute: '2-digit' 
+          })}
         </div>
       </div>
     </div>

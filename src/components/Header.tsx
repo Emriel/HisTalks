@@ -1,38 +1,32 @@
 import React from 'react';
 import { useChatContext } from '../context/ChatContext';
-import LanguageSwitcher from './LanguageSwitcher';
+import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 const Header = () => {
+  const { t } = useTranslation();
   const { selectedCharacter, resetCharacter } = useChatContext();
   
   return (
     <header className="bg-[#693d14] text-white p-4 shadow-md">
       <div className="container mx-auto flex justify-between items-center">
-        <div 
-          className="flex items-center space-x-2 cursor-pointer hover:opacity-80 transition-opacity"
+        <Link to="/" 
+          className="flex items-center space-x-2 hover:opacity-80 transition-opacity"
           onClick={resetCharacter}
         >
           <img src="/logo5.png" alt="HisTalks Logo" className="h-8 w-8" />
           <h1 className="text-2xl font-serif font-bold">HisTalks</h1>
-        </div>
-        <div className="flex-1 flex justify-center">
-          <LanguageSwitcher />
-        </div>
+        </Link>
         <div className="w-32">
           {selectedCharacter && (
             <div className="hidden md:block text-sm opacity-80">
-              Conversing with <span className="font-semibold">{selectedCharacter.name}</span>
+              {t('chat.conversing_with')} <span className="font-semibold">{selectedCharacter.name}</span>
             </div>
           )}
         </div>
-        {selectedCharacter && (
-          <div className="hidden md:block text-sm opacity-80">
-            Conversing with <span className="font-semibold">{selectedCharacter.name}</span>
-          </div>
-        )}
         <nav className="flex space-x-4">
-          <a href="/signin" className="text-sm font-medium text-white hover:text-amber-400">Giriş Yap</a>
-          <a href="/signup" className="text-sm font-medium text-white hover:text-amber-400">Kayıt Ol</a>
+          <Link to="/signin" className="text-sm font-medium text-white hover:text-amber-400">{t('signin.submit')}</Link>
+          <Link to="/signup" className="text-sm font-medium text-white hover:text-amber-400">{t('signup.submit')}</Link>
         </nav>
       </div>
     </header>

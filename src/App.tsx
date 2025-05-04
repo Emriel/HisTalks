@@ -11,7 +11,7 @@ function App() {
   return (
     <ChatProvider>
       <Router>
-        <div className="flex flex-col min-h-screen bg-slate-50">
+      <div className="flex flex-col min-h-screen bg-slate-50 bg-[url('/paperbg3.jpg')] bg-cover bg-fixed">
           <Header />
           <Routes>
             <Route path="/signin" element={<SignIn />} />
