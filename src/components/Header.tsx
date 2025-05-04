@@ -17,6 +17,10 @@ const Header = () => {
             Conversing with <span className="font-semibold">{selectedCharacter.name}</span>
           </div>
         )}
+        <nav className="flex space-x-4">
+          <a href="/signin" className="text-sm font-medium text-white hover:text-amber-400">Giriş Yap</a>
+          <a href="/signup" className="text-sm font-medium text-white hover:text-amber-400">Kayıt Ol</a>
+        </nav>
       </div>
     </header>
   );
