@@ -1,6 +1,7 @@
 import React, { createContext, useContext, useState, useCallback } from 'react';
 import { Character, Message } from '../types';
 import { getAIResponse } from '../utils/api';
+import { useTranslation } from 'react-i18next';
 
 interface ChatContextType {
   selectedCharacter: Character | null;
@@ -15,19 +16,38 @@ const ChatContext = createContext<ChatContextType | undefined>(undefined);
 export const ChatProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [selectedCharacter, setSelectedCharacter] = useState<Character | null>(null);
   const [messages, setMessages] = useState<Message[]>([]);
+  const { t } = useTranslation();
+
+  const getCharacterTranslationKey = (name: string) => {
+    return name
+      .toLowerCase()
+      .replace(/\([^)]*\)/g, '')
+      .replace(/-/g, '_')
+      .replace(/\s+/g, '_')
+      .replace(/[ç]/g, 'c')
+      .replace(/[ğ]/g, 'g')
+      .replace(/[ı]/g, 'i')
+      .replace(/[ö]/g, 'o')
+      .replace(/[ş]/g, 's')
+      .replace(/[ü]/g, 'u')
+      .replace(/[^a-z0-9_]/g, '')
+      .replace(/_+/g, '_')
+      .replace(/^_|_$/g, '');
+  };
 
   const selectCharacter = useCallback((character: Character) => {
     setSelectedCharacter(character);
+    const translationKey = getCharacterTranslationKey(character.name);
     setMessages([
       {
         id: '1',
         sender: 'ai',
         senderName: character.name,
-        text: character.greeting,
+        text: t(`characters.${translationKey}.greeting`),
         timestamp: new Date(),
       },
     ]);
-  }, []);
+  }, [t]);
 
   const resetCharacter = useCallback(() => {
     setSelectedCharacter(null);
