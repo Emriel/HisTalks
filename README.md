@@ -19,3 +19,18 @@
 7. Son olarak, terminalde şu komutu çalıştırarak projeyi başlatın:  
    `npm run dev`  
    Bu komut sonrası proje `localhost` üzerinde çalışmaya başlayacaktır.
+
+## Database Bağlantısı
+
+1. Database tarafının çalışması için bilgisayarınızda PostgreSQL'in kurulu olması gerekiyor.
+
+2. Kurulu olup olmadığını kontrol etmek için terminalinize `where psql` yazabilirsiniz.
+
+3. Kurulumu yapıp hizmetler kısmında PostgreSQL'in çalıştığına emin olduktan sonra terminalde projenin kök dizinini açın ve sırasıyla aşağıdaki komutları girin:  
+   `cd backend`  
+   `pip install -r requirements.txt`
+
+4. Yükleme işlemi tamamlandıktan sonra backend dizini içerisinde `uvicorn main:app --reload` komutunu çalıştırın.
+
+5. Şu an database bağlantısı kurulmuş olmalı. Eğer kurulmadıysa database tarafında kullanıcı isminiz ya da şifreniz gibi kısımları kontrol ediniz.
+
