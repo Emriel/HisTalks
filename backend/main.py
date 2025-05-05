@@ -8,16 +8,27 @@ from datetime import datetime
 from fastapi.middleware.cors import CORSMiddleware
 from schemas import RegisterRequest  # bunu ekle
 from schemas import LoginRequest
+import psycopg2
+from psycopg2.extensions import ISOLATION_LEVEL_AUTOCOMMIT
 
+# === Veritabanı ayarları ===
+DB_NAME = "HisTalks"
+DB_USER = "postgres"
+DB_PASSWORD = "1234"  # kendi şifrene göre değiştir
+DB_HOST = "localhost"
+DB_PORT = "5432"
 
-DATABASE_URL = "postgresql://postgres:1234@localhost:5432/HisTalks"
+POSTGRES_DB_URL = f"postgresql://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/postgres"
+DATABASE_URL = f"postgresql://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
 
+# === SQLAlchemy setup ===
 engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
 app = FastAPI()
 
+# === CORS ===
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],  # Geliştirme ortamı için uygun
@@ -26,6 +37,47 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# === Startup işlemleri ===
+@app.on_event("startup")
+def startup_event():
+    create_database_if_not_exists()
+    create_tables()
+
+def create_database_if_not_exists():
+    try:
+        conn = psycopg2.connect(
+            dbname="postgres",
+            user=DB_USER,
+            password=DB_PASSWORD,
+            host=DB_HOST,
+            port=DB_PORT
+        )
+        conn.set_isolation_level(ISOLATION_LEVEL_AUTOCOMMIT)
+        cursor = conn.cursor()
+
+        cursor.execute(f"SELECT 1 FROM pg_database WHERE datname = '{DB_NAME}'")
+        exists = cursor.fetchone()
+
+        if not exists:
+            cursor.execute(f'CREATE DATABASE "{DB_NAME}"')
+            print(f"[✔] Veritabanı '{DB_NAME}' oluşturuldu.")
+        else:
+            print(f"[✔] Veritabanı '{DB_NAME}' zaten var.")
+
+        cursor.close()
+        conn.close()
+
+    except Exception as e:
+        print(f"[HATA] Veritabanı kontrolünde hata: {e}")
+
+def create_tables():
+    try:
+        Base.metadata.create_all(bind=engine)
+        print("[✔] Tablolar kontrol edildi/oluşturuldu.")
+    except Exception as e:
+        print(f"[HATA] Tablolar oluşturulamadı: {e}")
+
+# === DB bağlantısı ===
 def get_db():
     db = SessionLocal()
     try:
@@ -33,6 +85,7 @@ def get_db():
     finally:
         db.close()
 
+# === Endpointler ===
 @app.post("/register")
 def register(data: RegisterRequest, db: Session = Depends(get_db)):
     hashed_password = pwd_context.hash(data.password)
@@ -48,9 +101,9 @@ def register(data: RegisterRequest, db: Session = Depends(get_db)):
     return {"id": user.id, "username": user.username}
 
 @app.post("/login")
-def login(data: LoginRequest, db: Session = Depends(get_db)):  # data parametresini alıyoruz
-    user = db.query(User).filter(User.username == data.username).first()  # username'i data'dan alıyoruz
-    if not user or not pwd_context.verify(data.password, user.password_hash):  # password'u data'dan alıyoruz
+def login(data: LoginRequest, db: Session = Depends(get_db)):
+    user = db.query(User).filter(User.username == data.username).first()
+    if not user or not pwd_context.verify(data.password, user.password_hash):
         raise HTTPException(status_code=401, detail="Kullanıcı adı veya şifre yanlış")
     return {"id": user.id, "username": user.username, "email": user.email}
 
@@ -73,4 +126,4 @@ def get_messages(user_id: int, db: Session = Depends(get_db)):
             "is_user": m.is_user,
             "timestamp": m.timestamp
         } for m in messages
-    ] 
+    ]
