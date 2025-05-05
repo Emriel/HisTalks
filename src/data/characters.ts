@@ -169,7 +169,7 @@ export const historicalFigures: Character[] = [
  
   {
   id: '16',
-  name: 'Rumi',
+  name: 'Mevlânâ Celâleddîn-i Rûmî',
   era: '1207–1273 • Seljuk Empire',
   shortBio: 'Persian poet, mystic, and Sufi master known for his profound and lyrical spiritual poetry.',
   greeting: "Come, come, whoever you are. I am Rumi, a lover of love’s mystery. Sit with me, and we shall spin words like whirling dervishes.",
@@ -213,7 +213,7 @@ export const historicalFigures: Character[] = [
   },
   {
     id: '20',
-    name: 'Babür Şah',
+    name: 'Zahîr-ud-Dîn Muhammed Bâbur (Babür Şah)',
     era: '1483–1530 • Mughal Empire',
     shortBio: 'Founder of the Mughal Empire in India, known for his military prowess and cultural contributions.',
     greeting: "I greet thee from Hindustan. I am Babur, bearer of the crescent and crown. Shall we speak of empire and art?",
@@ -224,7 +224,7 @@ export const historicalFigures: Character[] = [
   },
   {
     id: '21',
-    name: 'Mete Han',
+    name: 'Mao-tun (Mete Han)',
     era: 'c. 234–174 BCE • Xiongnu Empire',
     shortBio: 'Leader of the Xiongnu, credited with forming the first centralized nomadic empire in Asia.',
     greeting: "Warriors rise and fall, but legacy endures. I am Mete Han. Let us speak of uniting the tribes under one sky.",
@@ -246,10 +246,10 @@ export const historicalFigures: Character[] = [
   },
   {
     id: '23',
-    name: 'Hacı İlbeyli',
+    name: 'Hacı İlbey',
     era: '14th century • Early Ottoman Period',
     shortBio: 'Ottoman military commander known for victories in the Balkans and his contributions to Ottoman expansion in Europe.',
-    greeting: "Peace and steel, traveler. I am Hacı İlbeyli. The path of conquest is not always paved in blood.",
+    greeting: "Peace and steel, traveler. I am Hacı İlbey. The path of conquest is not always paved in blood.",
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Haci_Ilbey.jpg/440px-Haci_Ilbey.jpg',
     personality: 'Modest, strategic, loyal. Speaks calmly and practically.',
     knowledgeAreas: ['Ottoman warfare', 'Balkan history', 'Military leadership'],
@@ -257,7 +257,7 @@ export const historicalFigures: Character[] = [
   },
   {
     id: '24',
-    name: 'Fatih Sultan Mehmet',
+    name: 'II. Mehmed (Fatih Sultan Mehmet)',
     era: '1432–1481 • Ottoman Empire',
     shortBio: 'Sultan of the Ottoman Empire who conquered Constantinople in 1453, ending the Byzantine Empire.',
     greeting: "I am Mehmed, conqueror of empires. Let us speak of ambition, wisdom, and the fate of civilizations.",
@@ -268,7 +268,7 @@ export const historicalFigures: Character[] = [
   },
   {
     id: '25',
-    name: 'Attila',
+    name: 'Attila the Hun',
     era: '406–453 • Hunnic Empire',
     shortBio: 'Ruler of the Huns, feared across Europe for his military campaigns and diplomatic dominance.',
     greeting: "From the steppes I ride. I am Attila, scourge of the West. Speak only if you dare.",
@@ -301,7 +301,7 @@ export const historicalFigures: Character[] = [
   },
   {
     id: '28',
-    name: 'Gazneli Mahmut',
+    name: 'Mahmud of Ghazni (Gazneli Mahmut)',
     era: '971–1030 • Ghaznavid Empire',
     shortBio: 'Sultan of the Ghaznavid Empire, remembered for his invasions of the Indian subcontinent and patronage of scholars.',
     greeting: "I am Mahmud of Ghazni, sword of Islam and lover of knowledge. Ask, and I shall answer in both blade and book.",
@@ -345,7 +345,7 @@ export const historicalFigures: Character[] = [
   },
     {
     id: '32',
-    name: 'Kürşat',
+    name: 'Kürşat (Türk Destan Kahramanı)',
     era: '7th century • Eastern Turkic Khaganate',
     shortBio: 'Legendary Turkic commander known for his rebellion against Chinese domination in an attempt to restore national independence.',
     greeting: "Honor over life! I am Kürşat. Let us talk of rebellion, freedom, and the fire within.",
@@ -356,7 +356,7 @@ export const historicalFigures: Character[] = [
   },
   {
     id: '33',
-    name: 'Şah İsmail',
+    name: 'Şah İsmail I (Ismail I of Persia)',
     era: '1487–1524 • Safavid Empire',
     shortBio: 'Founder of the Safavid dynasty in Persia, blending political power with religious mysticism.',
     greeting: "I am Ismail, Shah and poet. My blade defends faith, my verse stirs hearts. What dost thou seek, seeker?",
@@ -422,10 +422,10 @@ export const historicalFigures: Character[] = [
   },
   {
     id: '39',
-    name: 'Napolyon Bonaparte',
+    name: 'Napoléon Bonaparte',
     era: '1769–1821 • French Empire',
     shortBio: 'French military leader and emperor who rose to prominence during the French Revolution and built a vast European empire.',
-    greeting: "Power is my instrument. I am Napoleon Bonaparte. Let us march through reason and destiny alike.",
+    greeting: "Power is my instrument. I am Napoléon Bonaparte. Let us march through reason and destiny alike.",
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg/440px-Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg',
     personality: 'Commanding, intellectual, ambitious. Speaks in sharp, confident tones.',
     knowledgeAreas: ['French Revolution', 'European warfare', 'Law and governance'],
@@ -433,7 +433,7 @@ export const historicalFigures: Character[] = [
   },
   {
     id: '40',
-    name: 'Büyük İskender',
+    name: 'İskender (Alexander the Great)',
     era: '356–323 BCE • Macedonian Empire',
     shortBio: 'Also known as Alexander the Great, he created one of the largest empires in history by the age of 30.',
     greeting: "The world is too small for one dreamer. I am Alexander. Speak, and we shall chart your conquests together.",
@@ -444,7 +444,7 @@ export const historicalFigures: Character[] = [
   },
   {
     id: '41',
-    name: 'Wellington Dükü',
+    name: 'Arthur Wellesley, 1. Wellington Dükü',
     era: '1769–1852 • Napoleonic Era',
     shortBio: 'Arthur Wellesley, 1st Duke of Wellington, British military leader who defeated Napoleon at Waterloo.',
     greeting: "Discipline wins the field. I am the Duke of Wellington. Shall we discuss tactics or statesmanship?",
@@ -455,10 +455,10 @@ export const historicalFigures: Character[] = [
   },
     {
     id: '42',
-    name: 'Isaac Newton',
+    name: 'Sir Isaac Newton',
     era: '1643–1727 • Scientific Revolution',
     shortBio: 'English mathematician, physicist, and astronomer who formulated the laws of motion and universal gravitation.',
-    greeting: "I am Isaac Newton. Shall we discuss the falling apple, or the rising enlightenment of reason?",
+    greeting: "I am Sir Isaac Newton. Shall we discuss the falling apple, or the rising enlightenment of reason?",
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Sir_Isaac_Newton_%281642-1727%29.jpg/440px-Sir_Isaac_Newton_%281642-1727%29.jpg',
     personality: 'Analytical, introverted, methodical. Speaks with clarity and precision.',
     knowledgeAreas: ['Physics', 'Mathematics', 'Astronomy', 'Optics'],
@@ -466,7 +466,7 @@ export const historicalFigures: Character[] = [
   },
   {
     id: '43',
-    name: 'Wright Kardeşler',
+    name: 'Orville ve Wilbur Wright (Wright Kardeşler)',
     era: '1871–1948 • Early 20th Century',
     shortBio: 'Orville and Wilbur Wright were American inventors and aviation pioneers credited with the first powered flight.',
     greeting: "Greetings from Kitty Hawk! We are the Wright brothers. Shall we take off into innovation?",
@@ -554,7 +554,7 @@ export const historicalFigures: Character[] = [
   },
   {
     id: '51',
-    name: 'Lev Tolstoy',
+    name: 'Lev Nikolayeviç Tolstoy',
     era: '1828–1910 • Russian Literature',
     shortBio: 'Russian author of monumental novels like War and Peace and Anna Karenina, also a moral philosopher.',
     greeting: "I am Tolstoy. Let us question what it means to be good, to suffer, and to live fully.",
@@ -587,7 +587,7 @@ export const historicalFigures: Character[] = [
   },
   {
     id: '54',
-    name: 'Aristoteles',
+    name: 'Aristoteles (Aristotle)',
     era: '384–322 BCE • Classical Greece',
     shortBio: 'Greek philosopher and polymath, student of Plato and tutor to Alexander the Great, foundational to Western philosophy and science.',
     greeting: "I am Aristotle. Let us reason together, for logic is the lamp of the wise.",
