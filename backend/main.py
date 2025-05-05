@@ -5,6 +5,10 @@ from sqlalchemy.orm import sessionmaker
 from passlib.context import CryptContext
 from models import Base, User, Conversation
 from datetime import datetime
+from fastapi.middleware.cors import CORSMiddleware
+from schemas import RegisterRequest  # bunu ekle
+from schemas import LoginRequest
+
 
 DATABASE_URL = "postgresql://postgres:1234@localhost:5432/HisTalks"
 
@@ -14,6 +18,14 @@ pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
 app = FastAPI()
 
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Geliştirme ortamı için uygun
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 def get_db():
     db = SessionLocal()
     try:
@@ -22,18 +34,23 @@ def get_db():
         db.close()
 
 @app.post("/register")
-def register(username: str, email: str, password: str, db: Session = Depends(get_db)):
-    hashed_password = pwd_context.hash(password)
-    user = User(username=username, email=email, password_hash=hashed_password, created_at=datetime.utcnow())
+def register(data: RegisterRequest, db: Session = Depends(get_db)):
+    hashed_password = pwd_context.hash(data.password)
+    user = User(
+        username=data.username,
+        email=data.email,
+        password_hash=hashed_password,
+        created_at=datetime.utcnow()
+    )
     db.add(user)
     db.commit()
     db.refresh(user)
     return {"id": user.id, "username": user.username}
 
 @app.post("/login")
-def login(username: str, password: str, db: Session = Depends(get_db)):
-    user = db.query(User).filter(User.username == username).first()
-    if not user or not pwd_context.verify(password, user.password_hash):
+def login(data: LoginRequest, db: Session = Depends(get_db)):  # data parametresini alıyoruz
+    user = db.query(User).filter(User.username == data.username).first()  # username'i data'dan alıyoruz
+    if not user or not pwd_context.verify(data.password, user.password_hash):  # password'u data'dan alıyoruz
         raise HTTPException(status_code=401, detail="Kullanıcı adı veya şifre yanlış")
     return {"id": user.id, "username": user.username, "email": user.email}
 

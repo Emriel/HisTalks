@@ -17,17 +17,29 @@ const SignUp = () => {
 
     try {
       if (password !== confirmPassword) {
-        setError(t('signup.error.password_mismatch'));
+        setError('Şifreler eşleşmiyor');
         return;
       }
 
       if (username && email && password) {
-        navigate('/signin');
+        const response = await fetch('http://127.0.0.1:8000/register', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ username, email, password }),
+        });
+
+        if (response.ok) {
+          navigate('/signin');
+        } else {
+          setError('Kayıt olurken bir hata oluştu');
+        }
       } else {
-        setError(t('signup.error.required'));
+        setError('Lütfen tüm alanları doldurunuz');
       }
     } catch (err) {
-      setError(t('signup.error.general'));
+      setError('Kayıt olurken bir hata oluştu');
     }
   };
 

@@ -15,12 +15,24 @@ const SignIn = () => {
 
     try {
       if (username && password) {
-        navigate('/');
+        const response = await fetch('http://127.0.0.1:8000/login', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ username, password }),
+        });
+
+        if (response.ok) {
+          navigate('/');
+        } else {
+          setError('Kullanıcı adı veya şifre yanlış');
+        }
       } else {
-        setError(t('signin.error.required'));
+        setError('Lütfen kullanıcı adı ve şifre giriniz');
       }
     } catch (err) {
-      setError(t('signin.error.general'));
+      setError('Giriş yapılırken bir hata oluştu');
     }
   };
 
