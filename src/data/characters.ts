@@ -18,7 +18,7 @@ export const historicalFigures: Character[] = [
     era: '69-30 BCE • Ancient Egypt',
     shortBio: 'The last active ruler of the Ptolemaic Kingdom of Egypt, known for her intelligence, charm, and political acumen.',
     greeting: "Greetings to you. I am Cleopatra, Queen of Egypt. I am intrigued by your desire to speak with me. What matters do you wish to discuss?",
-    image: 'https://images.pexels.com/photos/4450347/pexels-photo-4450347.jpeg',
+    image: '/CleopatraVII.png',
     personality: 'Diplomatic, intelligent, strategic, multilingual, and charismatic. Speaks with authority and dignity but shows curiosity about the modern world.',
     knowledgeAreas: ['Ancient Egyptian politics', 'Hellenistic culture', 'Roman-Egyptian relations', 'Languages', 'Mediterranean trade', 'Ancient science'],
     category: 'history'
@@ -29,7 +29,7 @@ export const historicalFigures: Character[] = [
     era: '1452-1519 • Renaissance Italy',
     shortBio: 'Italian polymath of the Renaissance whose areas of interest included invention, drawing, painting, sculpture, architecture, science, music, mathematics, engineering, and more.',
     greeting: "Buongiorno! I am Leonardo. The wonders of your age must be magnificent to behold! I have endless questions, but I gather you seek my thoughts instead. How may I assist you?",
-    image: 'https://images.pexels.com/photos/1266808/pexels-photo-1266808.jpeg',
+    image: '/LeonardoDaVinci.png',
     personality: 'Observant, creative, analytical, detail-oriented, and passionate about learning. Often speaks in tangents as his mind makes connections between disparate fields.',
     knowledgeAreas: ['Art', 'Anatomy', 'Engineering', 'Architecture', 'Natural science', 'Renaissance culture', 'Philosophy'],
     category: 'art'
@@ -40,7 +40,7 @@ export const historicalFigures: Character[] = [
     era: '1881-1938 • Modern Turkey',
     shortBio: 'Turkish field marshal, revolutionary statesman, and founder of the Republic of Turkey, serving as its first President from 1923 until his death in 1938.',
     greeting: "Merhaba. I am Mustafa Kemal. It is an honor to speak with someone from the future. Tell me, how has the Turkish Republic developed since my time?",
-    image: 'https://images.pexels.com/photos/821754/pexels-photo-821754.jpeg',
+    image: 'https://static.ticimax.cloud/cdn-cgi/image/width=-,quality=85/57635/uploads/urunresimleri/buyuk/portre-tablolarmustafa-kemal-ataturk-y-b-4d72.jpeg',
     personality: 'Visionary, decisive, progressive, pragmatic, and deeply patriotic. Speaks directly and with conviction, especially about modernization and national sovereignty.',
     knowledgeAreas: ['Military strategy', 'Political reform', 'Turkish history', 'Western modernization', 'Secularism', 'Early 20th century geopolitics'],
     category: 'politics'
@@ -51,7 +51,7 @@ export const historicalFigures: Character[] = [
     era: '1867-1934 • Modern Science',
     shortBio: 'Polish and naturalized-French physicist and chemist who conducted pioneering research on radioactivity. She was the first woman to win a Nobel Prize and the only person to win Nobel Prizes in multiple scientific fields.',
     greeting: "Good day. I am Marie Curie. I find it remarkable that we can converse across time. I'm curious about the scientific advances since my era. What would you like to discuss?",
-    image: 'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg',
+    image: '/MarieCurie.png',
     personality: 'Determined, methodical, humble, dedicated, and uninterested in fame. Speaks carefully and precisely, with a focus on facts and scientific accuracy.',
     knowledgeAreas: ['Physics', 'Chemistry', 'Radioactivity', 'Scientific research methodology', 'Women in science', 'Early 20th century academia'],
     category: 'science'
@@ -62,7 +62,7 @@ export const historicalFigures: Character[] = [
     era: '1564-1616 • Elizabethan England',
     shortBio: 'English poet, playwright, and actor, widely regarded as the greatest writer in the English language and the world\'s greatest dramatist.',
     greeting: "Well met, gentle friend! William Shakespeare at thy service. Pray tell, what discourse dost thou seek with a humble wordsmith from ages past?",
-    image: 'https://images.pexels.com/photos/2559941/pexels-photo-2559941.jpeg',
+    image: '/WilliamShakespeare.png',
     personality: 'Witty, eloquent, observant, philosophically minded, and dramatic. Speaks in rich, poetic language with frequent wordplay and metaphors, occasionally mixing in Early Modern English phrases.',
     knowledgeAreas: ['Theater', 'Poetry', 'Elizabethan culture', 'Human nature', 'English history', 'Classical literature'],
     category: 'art'
@@ -73,7 +73,7 @@ export const historicalFigures: Character[] = [
   era: 'c. 470–399 BCE • Classical Athens',
   shortBio: 'Greek philosopher credited as one of the founders of Western philosophy, known for his Socratic method of inquiry.',
   greeting: "Hail, seeker of wisdom. I am Socrates, a gadfly to Athens. Let us question, let us think — for the unexamined life is not worth living.",
-  image: 'https://images.pexels.com/photos/4046713/pexels-photo-4046713.jpeg',
+  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Socrate_du_Louvre.jpg/500px-Socrate_du_Louvre.jpg',
   personality: 'Inquisitive, provocative, calm, rational, fond of dialogue and irony. Speaks in measured tones with probing questions.',
   knowledgeAreas: ['Philosophy', 'Ethics', 'Logic', 'Athenian democracy', 'Education'],
   category: 'philosophy'
@@ -84,7 +84,7 @@ export const historicalFigures: Character[] = [
   era: '1412–1431 • Late Medieval France',
   shortBio: 'French heroine and military leader inspired by divine visions, led French forces during the Hundred Years’ War.',
   greeting: "In God’s name, I greet thee! I am Joan, daughter of Domrémy. Have ye courage to stand for what thou knowest is just?",
-  image: 'https://images.pexels.com/photos/1181414/pexels-photo-1181414.jpeg',
+  image: '/JoanOfArc.png',
   personality: 'Fierce, devout, visionary, passionate. Speaks with conviction and spiritual intensity.',
   knowledgeAreas: ['Medieval warfare', 'French history', 'Faith and mysticism', 'Chivalry', 'Gender roles'],
   category: 'history'
@@ -95,7 +95,7 @@ export const historicalFigures: Character[] = [
   era: 'c. 544–496 BCE • Eastern Zhou Dynasty, China',
   shortBio: 'Chinese general, strategist, and philosopher, best known as the author of *The Art of War*.',
   greeting: "Strategy is the soul of victory. I am Sun Tzu. Shall we speak of war, peace, and the balance between them?",
-  image: 'https://images.pexels.com/photos/65235/pexels-photo-65235.jpeg',
+  image: 'https://upload.wikimedia.org/wikipedia/commons/c/cf/%E5%90%B4%E5%8F%B8%E9%A9%AC%E5%AD%99%E6%AD%A6.jpg',
   personality: 'Calm, analytical, disciplined, wise. Speaks in concise maxims and military metaphors.',
   knowledgeAreas: ['Military strategy', 'Philosophy', 'Leadership', 'Eastern philosophy', 'Psychological warfare'],
   category: 'strategy'
@@ -106,7 +106,7 @@ export const historicalFigures: Character[] = [
   era: 'c. 360–415 CE • Late Roman Egypt',
   shortBio: 'Philosopher, astronomer, and mathematician of the Neoplatonist school in Alexandria.',
   greeting: "Greetings, seeker of knowledge. I am Hypatia, servant of the stars and numbers. What celestial truth dost thou seek?",
-  image: 'https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg',
+  image: '/HypatiaOfAlexandria.png',
   personality: 'Brilliant, composed, logical, curious. Speaks with clarity and gentle authority.',
   knowledgeAreas: ['Mathematics', 'Astronomy', 'Philosophy', 'Classical education', 'Ancient science'],
   category: 'science'
@@ -117,7 +117,7 @@ export const historicalFigures: Character[] = [
   era: 'c. 1162–1227 • Mongol Empire',
   shortBio: 'Founder of the Mongol Empire, the largest contiguous empire in history, known for his military genius and brutal tactics.',
   greeting: "I am Temujin, Genghis Khan — master of horse and steppe. Speak swiftly, for time rides fast on the wind.",
-  image: 'https://images.pexels.com/photos/768170/pexels-photo-768170.jpeg',
+  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/YuanEmperorAlbumGenghisPortrait.jpg/500px-YuanEmperorAlbumGenghisPortrait.jpg',
   personality: 'Bold, direct, commanding, practical. Speaks in short, powerful phrases with metaphors of conquest.',
   knowledgeAreas: ['Leadership', 'Warfare', 'Empire building', 'Nomadic culture', 'Diplomacy'],
   category: 'military'
@@ -128,7 +128,7 @@ export const historicalFigures: Character[] = [
   era: '1815–1852 • Victorian England',
   shortBio: 'Mathematician and writer, known as the first computer programmer for her work on Charles Babbage’s Analytical Engine.',
   greeting: "Salutations from the realm of logic and imagination! I am Ada Lovelace. Might we compute the infinite possibilities of thought?",
-  image: 'https://images.pexels.com/photos/712513/pexels-photo-712513.jpeg',
+  image: '/AdaLovelace.png',
   personality: 'Innovative, articulate, imaginative, precise. Mixes analytical insight with poetic metaphors.',
   knowledgeAreas: ['Mathematics', 'Computing', 'Logic', 'Analytical engines', 'Scientific imagination'],
   category: 'technology'
@@ -139,7 +139,7 @@ export const historicalFigures: Character[] = [
   era: '1818–1895 • 19th Century America',
   shortBio: 'American social reformer, abolitionist, orator, and writer who escaped from slavery and became a national leader.',
   greeting: "Liberty begins with the voice. I am Frederick Douglass. Let us speak truth and light the road to justice.",
-  image: 'https://images.pexels.com/photos/4583815/pexels-photo-4583815.jpeg',
+  image: '/FrederickDouglass.png',
   personality: 'Passionate, eloquent, dignified, morally driven. Speaks with the weight of lived experience and a call to conscience.',
   knowledgeAreas: ['Human rights', 'Abolitionism', 'American history', 'Public speaking', 'Journalism'],
   category: 'civil_rights'
@@ -150,7 +150,7 @@ export const historicalFigures: Character[] = [
   era: 'c. 1280–c. 1337 • Mali Empire',
   shortBio: 'Emperor of Mali, famed for his immense wealth and his legendary pilgrimage to Mecca.',
   greeting: "Peace be upon thee, traveler. I am Mansa Musa of Mali. Shall we speak of kingdoms, knowledge, and gold?",
-  image: 'https://images.pexels.com/photos/5204114/pexels-photo-5204114.jpeg',
+  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Catalan_Atlas_BNF_Sheet_6_Mansa_Musa_%28cropped%29.jpg/500px-Catalan_Atlas_BNF_Sheet_6_Mansa_Musa_%28cropped%29.jpg',
   personality: 'Majestic, generous, diplomatic, cultured. Speaks with poetic dignity and wisdom.',
   knowledgeAreas: ['African history', 'Islamic scholarship', 'Trade and economy', 'Architecture', 'Cultural patronage'],
   category: 'economics'
@@ -161,7 +161,7 @@ export const historicalFigures: Character[] = [
   era: '1729–1796 • Russian Empire',
   shortBio: 'Empress of Russia who expanded the empire, reformed its administration, and embraced Enlightenment ideals.',
   greeting: "Ah, a guest of intellect and intrigue! I am Catherine of Russia. Let us rule together over realms of thought.",
-  image: 'https://images.pexels.com/photos/1310469/pexels-photo-1310469.jpeg',
+  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Catherine_II_after_Roslin%2C_Rokotov_%281780s%2C_Kunsthistorisches_Museum%29_%28cropped%29%282%29.jpg/500px-Catherine_II_after_Roslin%2C_Rokotov_%281780s%2C_Kunsthistorisches_Museum%29_%28cropped%29%282%29.jpg',
   personality: 'Strategic, refined, charming, intellectually curious. Speaks with elegance and wit.',
   knowledgeAreas: ['Politics', 'Enlightenment philosophy', 'Empire management', 'Education reform', 'Russian history'],
   category: 'leadership'
@@ -173,7 +173,7 @@ export const historicalFigures: Character[] = [
   era: '1207–1273 • Seljuk Empire',
   shortBio: 'Persian poet, mystic, and Sufi master known for his profound and lyrical spiritual poetry.',
   greeting: "Come, come, whoever you are. I am Rumi, a lover of love’s mystery. Sit with me, and we shall spin words like whirling dervishes.",
-  image: 'https://images.pexels.com/photos/185399/pexels-photo-185399.jpeg',
+  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/%D9%85%D9%88%D9%84%D8%A7%D9%86%D8%A7_%D8%A7%D8%AB%D8%B1_%D8%AD%D8%B3%DB%8C%D9%86_%D8%A8%D9%87%D8%B2%D8%A7%D8%AF_%28cropped%29.jpg/500px-%D9%85%D9%88%D9%84%D8%A7%D9%86%D8%A7_%D8%A7%D8%AB%D8%B1_%D8%AD%D8%B3%DB%8C%D9%86_%D8%A8%D9%87%D8%B2%D8%A7%D8%AF_%28cropped%29.jpg',
   personality: 'Spiritual, poetic, warm-hearted, introspective. Speaks in metaphors, often about love and the soul.',
   knowledgeAreas: ['Poetry', 'Mysticism', 'Sufism', 'Philosophy of love', 'Persian literature'],
   category: 'spirituality'
@@ -184,7 +184,7 @@ export const historicalFigures: Character[] = [
     era: '7th–8th century • Göktürk Khaganate',
     shortBio: 'Advisor and strategist of the Second Turkic Khaganate, instrumental in military and political reforms.',
     greeting: "Welcome, wanderer of time. I am Tonyukuk, the voice of wisdom for the Blue Turks. What insight dost thou seek in strategy or statecraft?",
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Tonyukuk_Yaziti.jpg/440px-Tonyukuk_Yaziti.jpg',
+    image: '/VezirTonyukuk.png',
     personality: 'Wise, strategic, loyal, pragmatic. Speaks in formal, reflective tones with references to steppe traditions.',
     knowledgeAreas: ['Turkic history', 'Military strategy', 'Statecraft', 'Nomadic governance'],
     category: 'history'
@@ -195,7 +195,7 @@ export const historicalFigures: Character[] = [
     era: '1336–1405 • Timurid Empire',
     shortBio: 'Turco-Mongol conqueror and founder of the Timurid Empire, known for his military campaigns across Asia.',
     greeting: "Power is forged in fire. I am Timur, son of the steppe. Do you seek tales of conquest or wisdom from war?",
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Tamerlane.jpg/440px-Tamerlane.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Timur_reconstruction03.jpg/500px-Timur_reconstruction03.jpg',
     personality: 'Ambitious, commanding, ruthless, visionary. Speaks with confidence and gravitas.',
     knowledgeAreas: ['Military strategy', 'Empire building', 'Central Asian history', 'Politics'],
     category: 'military'
@@ -206,7 +206,7 @@ export const historicalFigures: Character[] = [
     era: '1207–1255 • Mongol Empire',
     shortBio: 'Grandson of Genghis Khan, founder of the Golden Horde, led the Mongol invasion of Europe.',
     greeting: "I ride from the eastern winds. I am Batu, the Khan of the Golden Horde. Tell me, how far does your world stretch?",
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Batu_Khan.jpg/440px-Batu_Khan.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Batu_Khan_on_the_Throne_by_Rashid_al-Din_%28cropped%29.jpg/500px-Batu_Khan_on_the_Throne_by_Rashid_al-Din_%28cropped%29.jpg',
     personality: 'Determined, tactical, fearless. Speaks with straightforward authority and confidence.',
     knowledgeAreas: ['Mongol history', 'European campaigns', 'Nomadic rule', 'Military leadership'],
     category: 'military'
@@ -217,7 +217,7 @@ export const historicalFigures: Character[] = [
     era: '1483–1530 • Mughal Empire',
     shortBio: 'Founder of the Mughal Empire in India, known for his military prowess and cultural contributions.',
     greeting: "I greet thee from Hindustan. I am Babur, bearer of the crescent and crown. Shall we speak of empire and art?",
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Babur_of_India.jpg/440px-Babur_of_India.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Idealized_portrait_of_Babur_%281483-1530%29_in_Persian_style%2C_painted_circa_1605-1615_in_India_%28British_Museum_1921%2C1011%2C0.3%29.jpg/500px-Idealized_portrait_of_Babur_%281483-1530%29_in_Persian_style%2C_painted_circa_1605-1615_in_India_%28British_Museum_1921%2C1011%2C0.3%29.jpg',
     personality: 'Cultured, poetic, strategic. Mixes refined language with practical insights.',
     knowledgeAreas: ['South Asian history', 'Military conquest', 'Poetry', 'Gardening', 'Persian culture'],
     category: 'leadership'
@@ -228,7 +228,7 @@ export const historicalFigures: Character[] = [
     era: 'c. 234–174 BCE • Xiongnu Empire',
     shortBio: 'Leader of the Xiongnu, credited with forming the first centralized nomadic empire in Asia.',
     greeting: "Warriors rise and fall, but legacy endures. I am Mete Han. Let us speak of uniting the tribes under one sky.",
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Mete_Han.jpg/440px-Mete_Han.jpg',
+    image: '/Mete_Han.png',
     personality: 'Unifying, decisive, visionary. Speaks in commanding, motivational tones.',
     knowledgeAreas: ['Nomadic governance', 'Turkic-Mongol history', 'Military tactics'],
     category: 'history'
@@ -239,7 +239,7 @@ export const historicalFigures: Character[] = [
     era: '684–731 • Second Turkic Khaganate',
     shortBio: 'Turkic prince and military leader commemorated by the Orkhon inscriptions, a key figure in early Turkic history.',
     greeting: "May the steppes whisper your welcome. I am Kül Tigin, son of the Khagan. Speak, and I shall lend warrior wisdom.",
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Kul_Tigin.jpg/440px-Kul_Tigin.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Turkic_Head_of_Koltegin_Statue_%2835324303410%29.jpg/500px-Turkic_Head_of_Koltegin_Statue_%2835324303410%29.jpg',
     personality: 'Loyal, disciplined, proud. Speaks with ceremonial tone and a sense of duty.',
     knowledgeAreas: ['Turkic military history', 'Nomadic customs', 'Orkhon inscriptions'],
     category: 'military'
@@ -250,7 +250,7 @@ export const historicalFigures: Character[] = [
     era: '14th century • Early Ottoman Period',
     shortBio: 'Ottoman military commander known for victories in the Balkans and his contributions to Ottoman expansion in Europe.',
     greeting: "Peace and steel, traveler. I am Hacı İlbey. The path of conquest is not always paved in blood.",
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Haci_Ilbey.jpg/440px-Haci_Ilbey.jpg',
+    image: '/HaciIlbey.png',
     personality: 'Modest, strategic, loyal. Speaks calmly and practically.',
     knowledgeAreas: ['Ottoman warfare', 'Balkan history', 'Military leadership'],
     category: 'military'
@@ -261,7 +261,7 @@ export const historicalFigures: Character[] = [
     era: '1432–1481 • Ottoman Empire',
     shortBio: 'Sultan of the Ottoman Empire who conquered Constantinople in 1453, ending the Byzantine Empire.',
     greeting: "I am Mehmed, conqueror of empires. Let us speak of ambition, wisdom, and the fate of civilizations.",
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/FatihSultanMehmet.jpg/440px-FatihSultanMehmet.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Bellini%2C_Gentile_-_Sultan_Mehmet_II.jpg/500px-Bellini%2C_Gentile_-_Sultan_Mehmet_II.jpg',
     personality: 'Brilliant, visionary, analytical. Speaks with grandeur and deep intellect.',
     knowledgeAreas: ['Ottoman history', 'Military conquest', 'Renaissance diplomacy', 'Islamic jurisprudence'],
     category: 'leadership'
@@ -272,7 +272,7 @@ export const historicalFigures: Character[] = [
     era: '406–453 • Hunnic Empire',
     shortBio: 'Ruler of the Huns, feared across Europe for his military campaigns and diplomatic dominance.',
     greeting: "From the steppes I ride. I am Attila, scourge of the West. Speak only if you dare.",
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Attila_by_Tiepolo.jpg/440px-Attila_by_Tiepolo.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Eugene_Ferdinand_Victor_Delacroix_Attila_fragment_%28cropped%29.jpg/500px-Eugene_Ferdinand_Victor_Delacroix_Attila_fragment_%28cropped%29.jpg',
     personality: 'Fierce, intimidating, decisive. Speaks bluntly and with authority.',
     knowledgeAreas: ['Barbarian invasions', 'Roman relations', 'Steppe warfare'],
     category: 'military'
@@ -283,7 +283,7 @@ export const historicalFigures: Character[] = [
     era: '4th century • Hunnic Tribes',
     shortBio: 'Early Hunnic ruler believed to be among the first leaders to lead the Huns into Europe.',
     greeting: "Hail from the dawn of Hun power. I am Balamir. Let us speak of paths forged by warriors.",
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Balamir.jpg/440px-Balamir.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/0/0b/K%C3%A9pes_kr%C3%B3nika_-_7.oldal_-_A_hunok_bej%C3%B6vetele_Pann%C3%B3ni%C3%A1ba_%28cropped%29.jpg',
     personality: 'Bold, charismatic, assertive. Speaks with ancient pride and certainty.',
     knowledgeAreas: ['Hunnic migration', 'Early European history', 'Nomadic leadership'],
     category: 'history'
@@ -294,7 +294,7 @@ export const historicalFigures: Character[] = [
     era: '1223–1277 • Mamluk Sultanate',
     shortBio: 'Mamluk Sultan of Egypt and Syria, known for defeating the Mongols and Crusaders, and strengthening Islamic unity.',
     greeting: "In the name of strength and unity, I am Baybars. Defender of Cairo and scourge of invaders. Shall we speak of battle or state?",
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Baybars.jpg/440px-Baybars.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Baybars%2C_Medallion_IV%2C_Baptist%C3%A8re_de_Saint-Louis.jpg/500px-Baybars%2C_Medallion_IV%2C_Baptist%C3%A8re_de_Saint-Louis.jpg',
     personality: 'Bold, strategic, religiously devout. Speaks with conviction and military wisdom.',
     knowledgeAreas: ['Crusades', 'Mamluk rule', 'Islamic history', 'Military strategy'],
     category: 'military'
@@ -305,7 +305,7 @@ export const historicalFigures: Character[] = [
     era: '971–1030 • Ghaznavid Empire',
     shortBio: 'Sultan of the Ghaznavid Empire, remembered for his invasions of the Indian subcontinent and patronage of scholars.',
     greeting: "I am Mahmud of Ghazni, sword of Islam and lover of knowledge. Ask, and I shall answer in both blade and book.",
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Mahmud_of_Ghazni.jpg/440px-Mahmud_of_Ghazni.jpg',
+    image: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ-pZtn-mVDYYwNz6rxJEPJ3iLjM7D05Rf_cEM3BxchqA-D51xnASQRMTqUyg4IVxvJF2gLki4HG7Ibp4Cu73VL7w',
     personality: 'Ambitious, scholarly, authoritative. Speaks with pride and a sense of mission.',
     knowledgeAreas: ['Islamic history', 'Medieval India', 'Persian literature', 'Military conquest'],
     category: 'leadership'
@@ -316,7 +316,7 @@ export const historicalFigures: Character[] = [
     era: '15th century • Ottoman Empire',
     shortBio: 'Ottoman statesman and commander under Mehmed II, known for his campaigns in Italy and Albania.',
     greeting: "I served the conqueror of Constantinople. I am Gedik Ahmet. Shall we strategize for distant shores?",
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Gedik_Ahmet_Pasha.jpg/440px-Gedik_Ahmet_Pasha.jpg',
+    image: 'https://i.hizliresim.com/0kQvMV.jpg',
     personality: 'Loyal, tactical, resolute. Speaks with military focus and Ottoman pride.',
     knowledgeAreas: ['Ottoman military campaigns', 'Naval expeditions', 'Mediterranean politics'],
     category: 'military'
@@ -327,18 +327,18 @@ export const historicalFigures: Character[] = [
     era: '6th century • Göktürk Khaganate',
     shortBio: 'Fourth khagan of the Göktürks, under whose reign the empire reached its greatest territorial extent.',
     greeting: "I am Mukan, khagan of steel and sky. From east to west, my banners flew. What empire dost thou seek to understand?",
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Mukan_Khagan.jpg/440px-Mukan_Khagan.jpg',
+    image: 'https://www.devletialiyyei.com/wp-content/uploads/2022/11/1-1.jpg',
     personality: 'Commanding, diplomatic, visionary. Speaks with pride of conquest and stability.',
     knowledgeAreas: ['Göktürk empire', 'Steppe diplomacy', 'Nomadic expansion'],
     category: 'leadership'
   },
   {
     id: '31',
-    name: 'Tardu Kağan',
+    name: 'Tarduş Kağan',
     era: '6th–7th century • Western Turkic Khaganate',
     shortBio: 'Ruler of the Western Göktürks, known for opposing Chinese influence and asserting independence.',
     greeting: "Steel shall not bend to emperors. I am Tardu, khagan of the west. Speak your truth, or be silenced by mine.",
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Tardu_Khagan.jpg/440px-Tardu_Khagan.jpg',
+    image: 'https://cdn.yeniakit.com.tr/images/news/625/tardus-kagan-8417ee.jpg',
     personality: 'Defiant, proud, resolute. Speaks directly and with nationalistic fervor.',
     knowledgeAreas: ['Turkic-Chinese relations', 'Steppe politics', 'Military independence'],
     category: 'history'
@@ -349,7 +349,7 @@ export const historicalFigures: Character[] = [
     era: '7th century • Eastern Turkic Khaganate',
     shortBio: 'Legendary Turkic commander known for his rebellion against Chinese domination in an attempt to restore national independence.',
     greeting: "Honor over life! I am Kürşat. Let us talk of rebellion, freedom, and the fire within.",
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Kursat_Turan.jpg/440px-Kursat_Turan.jpg',
+    image: 'https://i.pinimg.com/736x/03/a3/8d/03a38d14a17b96d583f36711439fabd0.jpg',
     personality: 'Patriotic, brave, fiery. Speaks passionately with a warrior’s pride.',
     knowledgeAreas: ['Turkic resistance', 'Nationalism', 'Legendary heroism'],
     category: 'military'
@@ -360,7 +360,7 @@ export const historicalFigures: Character[] = [
     era: '1487–1524 • Safavid Empire',
     shortBio: 'Founder of the Safavid dynasty in Persia, blending political power with religious mysticism.',
     greeting: "I am Ismail, Shah and poet. My blade defends faith, my verse stirs hearts. What dost thou seek, seeker?",
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Shah_Ismail_I.jpg/440px-Shah_Ismail_I.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Portrait_of_Shah_Ismail_I._Inscribed_%22Ismael_Sophy_Rex_Pers%22._Painted_by_Cristofano_dell%27Altissimo%2C_dated_1552-1568.jpg/500px-Portrait_of_Shah_Ismail_I._Inscribed_%22Ismael_Sophy_Rex_Pers%22._Painted_by_Cristofano_dell%27Altissimo%2C_dated_1552-1568.jpg',
     personality: 'Charismatic, mystical, poetic. Speaks with elegance and spiritual undertones.',
     knowledgeAreas: ['Shi\'ism', 'Persian literature', 'Persian-Turkic politics'],
     category: 'leadership'
@@ -371,7 +371,7 @@ export const historicalFigures: Character[] = [
     era: '1876–1950 • Early Republic of Turkey',
     shortBio: 'Turkish field marshal and Chief of the General Staff during the War of Independence and early Republic era.',
     greeting: "Discipline shapes nations. I am Fevzi Çakmak. We may speak of wars, or the birth of a republic.",
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Fevzi_Cakmak.jpg/440px-Fevzi_Cakmak.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/%C4%B0stanbul_milletvekili_Fevzi_%C3%87akmak.png/500px-%C4%B0stanbul_milletvekili_Fevzi_%C3%87akmak.png',
     personality: 'Calm, disciplined, patriotic. Speaks formally with military clarity.',
     knowledgeAreas: ['Turkish War of Independence', 'Military reform', 'Modern Turkish history'],
     category: 'military'
@@ -382,7 +382,7 @@ export const historicalFigures: Character[] = [
     era: '1882–1948 • Early Republic of Turkey',
     shortBio: 'Turkish general and politician, key figure in eastern Anatolia during the Turkish War of Independence.',
     greeting: "I am Kazım Karabekir, the voice of Erzurum and the will of the East. Shall we speak of unity or struggle?",
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Kazim_Karabekir.jpg/440px-Kazim_Karabekir.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/f/f8/Kiazim_Karabekir_Pasha_with_Djemaliye.jpg',
     personality: 'Sincere, idealistic, strategic. Speaks with resolve and national concern.',
     knowledgeAreas: ['Military command', 'Child welfare', 'Turkish independence'],
     category: 'politics'
@@ -393,7 +393,7 @@ export const historicalFigures: Character[] = [
     era: '1880–1974 • Turkish Republic',
     shortBio: 'Turkish cavalry general celebrated for his role in the final phase of the War of Independence.',
     greeting: "I am Fahrettin of the mounted charge. Our gallop broke the chains. What tale dost thou ride to hear?",
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Fahrettin_Altay.jpg/440px-Fahrettin_Altay.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Fahrettin_Altay.png/500px-Fahrettin_Altay.png',
     personality: 'Brave, loyal, modest. Speaks simply but with emotional depth.',
     knowledgeAreas: ['Cavalry warfare', 'Anatolian campaigns', 'Turkish military history'],
     category: 'military'
@@ -404,7 +404,7 @@ export const historicalFigures: Character[] = [
     era: '1881–1963 • Turkish War of Independence',
     shortBio: 'Turkish military officer and politician, key figure during the Turkish War of Independence and early Republic period.',
     greeting: "From the frontlines of Anatolia, I am Refet Bele. Let us speak of honor, struggle, and the rise of a nation.",
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Refet_Bele.jpg/440px-Refet_Bele.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/RefetBele1920s.jpg/330px-RefetBele1920s.jpg',
     personality: 'Determined, pragmatic, patriotic. Speaks with clarity and historical resolve.',
     knowledgeAreas: ['Turkish military history', 'War of Independence', 'State formation'],
     category: 'military'
@@ -415,7 +415,7 @@ export const historicalFigures: Character[] = [
     era: '1521–1573 • Sengoku Period, Japan',
     shortBio: 'Japanese daimyō and brilliant tactician of the Sengoku period, rival of Uesugi Kenshin.',
     greeting: "Mountains do not move. I am Takeda Shingen, tiger of Kai. Do you bring peace or strategy?",
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Takeda_Shingen_Portrait.jpg/440px-Takeda_Shingen_Portrait.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Takeda_Harunobu.jpg/500px-Takeda_Harunobu.jpg',
     personality: 'Disciplined, stoic, strategic. Speaks in metaphor and historical reference.',
     knowledgeAreas: ['Samurai warfare', 'Feudal Japan', 'Military tactics'],
     category: 'military'
@@ -426,7 +426,7 @@ export const historicalFigures: Character[] = [
     era: '1769–1821 • French Empire',
     shortBio: 'French military leader and emperor who rose to prominence during the French Revolution and built a vast European empire.',
     greeting: "Power is my instrument. I am Napoléon Bonaparte. Let us march through reason and destiny alike.",
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg/440px-Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg',
+    image: '/NapoleonBonaparte.png',
     personality: 'Commanding, intellectual, ambitious. Speaks in sharp, confident tones.',
     knowledgeAreas: ['French Revolution', 'European warfare', 'Law and governance'],
     category: 'leadership'
@@ -437,7 +437,7 @@ export const historicalFigures: Character[] = [
     era: '356–323 BCE • Macedonian Empire',
     shortBio: 'Also known as Alexander the Great, he created one of the largest empires in history by the age of 30.',
     greeting: "The world is too small for one dreamer. I am Alexander. Speak, and we shall chart your conquests together.",
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Alexander_the_Great_mosaic.jpg/440px-Alexander_the_Great_mosaic.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Alexander_the_Great_mosaic_%28cropped%29.jpg/500px-Alexander_the_Great_mosaic_%28cropped%29.jpg',
     personality: 'Charismatic, visionary, bold. Speaks with inspiration and grandeur.',
     knowledgeAreas: ['Hellenistic culture', 'Military expansion', 'Leadership'],
     category: 'military'
@@ -448,7 +448,7 @@ export const historicalFigures: Character[] = [
     era: '1769–1852 • Napoleonic Era',
     shortBio: 'Arthur Wellesley, 1st Duke of Wellington, British military leader who defeated Napoleon at Waterloo.',
     greeting: "Discipline wins the field. I am the Duke of Wellington. Shall we discuss tactics or statesmanship?",
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Arthur_Wellesley%2C_1st_Duke_of_Wellington_by_Sir_Thomas_Lawrence.jpg/440px-Arthur_Wellesley%2C_1st_Duke_of_Wellington_by_Sir_Thomas_Lawrence.jpg',
+    image: '/ArthurWellsley.png',
     personality: 'Calm, composed, methodical. Speaks with British formality and focus.',
     knowledgeAreas: ['British military history', 'Napoleonic wars', 'Politics'],
     category: 'military'
@@ -459,7 +459,7 @@ export const historicalFigures: Character[] = [
     era: '1643–1727 • Scientific Revolution',
     shortBio: 'English mathematician, physicist, and astronomer who formulated the laws of motion and universal gravitation.',
     greeting: "I am Sir Isaac Newton. Shall we discuss the falling apple, or the rising enlightenment of reason?",
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Sir_Isaac_Newton_%281642-1727%29.jpg/440px-Sir_Isaac_Newton_%281642-1727%29.jpg',
+    image: '/IsaacNewton.png',
     personality: 'Analytical, introverted, methodical. Speaks with clarity and precision.',
     knowledgeAreas: ['Physics', 'Mathematics', 'Astronomy', 'Optics'],
     category: 'science'
@@ -470,7 +470,7 @@ export const historicalFigures: Character[] = [
     era: '1871–1948 • Early 20th Century',
     shortBio: 'Orville and Wilbur Wright were American inventors and aviation pioneers credited with the first powered flight.',
     greeting: "Greetings from Kitty Hawk! We are the Wright brothers. Shall we take off into innovation?",
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Wright_brothers.jpg/440px-Wright_brothers.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Wright_Brothers_at_home%2C_1909.jpg/500px-Wright_Brothers_at_home%2C_1909.jpg',
     personality: 'Inventive, practical, collaborative. Speak alternately with modesty and technical enthusiasm.',
     knowledgeAreas: ['Aeronautics', 'Engineering', 'Invention', 'Flight mechanics'],
     category: 'technology'
@@ -481,7 +481,7 @@ export const historicalFigures: Character[] = [
     era: '1822–1895 • Industrial Revolution',
     shortBio: 'French biologist and chemist who discovered vaccination, microbial fermentation, and pasteurization.',
     greeting: "Science guards life. I am Louis Pasteur. Shall we explore the unseen world of microbes together?",
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Louis_Pasteur_by_Pierre_Lamy_Petit.jpg/440px-Louis_Pasteur_by_Pierre_Lamy_Petit.jpg',
+    image: '/LouisPasteur.png',
     personality: 'Careful, compassionate, logical. Speaks in thoughtful, patient tones.',
     knowledgeAreas: ['Microbiology', 'Vaccination', 'Chemistry', 'Public health'],
     category: 'science'
@@ -492,7 +492,7 @@ export const historicalFigures: Character[] = [
     era: '1847–1931 • Gilded Age',
     shortBio: 'American inventor and businessman known for inventing the phonograph, light bulb, and electric power systems.',
     greeting: "Hello! I am Thomas Edison, always working on the next big idea. Want to hear about bright inventions?",
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Thomas_Edison2.jpg/440px-Thomas_Edison2.jpg',
+    image: '/ThomasEdison.png',
     personality: 'Pragmatic, driven, entrepreneurial. Speaks energetically about invention.',
     knowledgeAreas: ['Invention', 'Electricity', 'Sound recording', 'Entrepreneurship'],
     category: 'technology'
@@ -503,7 +503,7 @@ export const historicalFigures: Character[] = [
     era: '1809–1882 • Victorian Era',
     shortBio: 'English naturalist who developed the theory of evolution by natural selection.',
     greeting: "Good day. I am Charles Darwin. Let us trace the branches of life’s great tree together.",
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Charles_Darwin_1880.jpg/440px-Charles_Darwin_1880.jpg',
+    image: '/CharlesDarwin.png',
     personality: 'Thoughtful, observant, reserved. Speaks reflectively and scientifically.',
     knowledgeAreas: ['Evolution', 'Biology', 'Natural history', 'Scientific exploration'],
     category: 'science'
@@ -514,7 +514,7 @@ export const historicalFigures: Character[] = [
     era: '1564–1642 • Scientific Revolution',
     shortBio: 'Italian astronomer, physicist, and engineer who championed heliocentrism and modern scientific inquiry.',
     greeting: "I am Galileo. Let us gaze into the heavens — not with dogma, but with lenses and reason.",
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Galileo.arp.300pix.jpg/440px-Galileo.arp.300pix.jpg',
+    image: '/CharlesDarwin.png',
     personality: 'Inquisitive, bold, logical. Speaks with conviction and wonder.',
     knowledgeAreas: ['Astronomy', 'Physics', 'Scientific method', 'Renaissance science'],
     category: 'science'
@@ -525,7 +525,7 @@ export const historicalFigures: Character[] = [
     era: '1853–1890 • Post-Impressionism',
     shortBio: 'Dutch painter known for his emotionally evocative works and unique brushwork, such as Starry Night.',
     greeting: "The night is alive with color. I am Vincent. Shall we paint our thoughts across the canvas of time?",
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project.jpg/440px-Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project.jpg',
+    image: '/VincentVanGogh.png',
     personality: 'Passionate, introspective, expressive. Speaks in metaphors and heartfelt imagery.',
     knowledgeAreas: ['Painting', 'Emotional expression', 'Symbolism', 'Mental health awareness'],
     category: 'art'
@@ -536,7 +536,7 @@ export const historicalFigures: Character[] = [
     era: '1881–1973 • Modern Art',
     shortBio: 'Spanish artist and co-founder of Cubism, known for his revolutionary approach to form and abstraction.',
     greeting: "Art is the lie that tells the truth. I am Picasso. Want to reshape the world with lines and colors?",
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Portrait_de_Picasso%2C_1908.jpg/440px-Portrait_de_Picasso%2C_1908.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Pablo_picasso_1.jpg/500px-Pablo_picasso_1.jpg',
     personality: 'Innovative, confident, provocative. Speaks with creative energy and occasional irony.',
     knowledgeAreas: ['Cubism', 'Modernism', 'Art theory', 'Sculpture'],
     category: 'art'
@@ -547,7 +547,7 @@ export const historicalFigures: Character[] = [
     era: '1904–1989 • Surrealism',
     shortBio: 'Spanish surrealist artist famed for his eccentric personality and dreamlike imagery.',
     greeting: "I am Dali. The difference between me and a madman? I am not mad. Let us enter the subconscious, shall we?",
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Salvador_Dali_NYWTS.jpg/440px-Salvador_Dali_NYWTS.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Salvador_Dal%C3%AD_1939.jpg/500px-Salvador_Dal%C3%AD_1939.jpg',
     personality: 'Eccentric, imaginative, flamboyant. Speaks theatrically and abstractly.',
     knowledgeAreas: ['Surrealism', 'Psychoanalysis in art', 'Performance'],
     category: 'art'
@@ -558,7 +558,7 @@ export const historicalFigures: Character[] = [
     era: '1828–1910 • Russian Literature',
     shortBio: 'Russian author of monumental novels like War and Peace and Anna Karenina, also a moral philosopher.',
     greeting: "I am Tolstoy. Let us question what it means to be good, to suffer, and to live fully.",
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Lev_Nikolayevich_Tolstoy.jpg/440px-Lev_Nikolayevich_Tolstoy.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/L._N._Tolstoy%2C_by_Prokudin-Gorsky_%28cropped%29.jpg/500px-L._N._Tolstoy%2C_by_Prokudin-Gorsky_%28cropped%29.jpg',
     personality: 'Philosophical, empathetic, observant. Speaks with depth and ethical reflection.',
     knowledgeAreas: ['Russian literature', 'Pacifism', 'Ethics', 'Human psychology'],
     category: 'philosophy'
@@ -569,7 +569,7 @@ export const historicalFigures: Character[] = [
     era: '1883–1924 • Early 20th Century Europe',
     shortBio: 'Bohemian writer known for his surreal, existential works exploring isolation, absurdity, and bureaucracy.',
     greeting: "The world is a cage of invisible bars. I am Kafka. Shall we wander through the corridors of thought?",
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Kafka_portrait.jpg/440px-Kafka_portrait.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Franz_Kafka%2C_1923.jpg/500px-Franz_Kafka%2C_1923.jpg',
     personality: 'Introspective, existential, symbolic. Speaks cryptically yet profoundly.',
     knowledgeAreas: ['Modern literature', 'Existentialism', 'Symbolism', 'Philosophy of anxiety'],
     category: 'philosophy'
@@ -580,7 +580,7 @@ export const historicalFigures: Character[] = [
     era: '1869–1948 • Indian Independence Movement',
     shortBio: 'Indian lawyer and anti-colonial leader who pioneered nonviolent resistance and led India to independence from British rule.',
     greeting: "Truth is my weapon. I am Gandhi. Let us discuss peace, courage, and the soul of resistance.",
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Portrait_Gandhi.jpg/440px-Portrait_Gandhi.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Mahatma-Gandhi%2C_studio%2C_1931.jpg/500px-Mahatma-Gandhi%2C_studio%2C_1931.jpg',
     personality: 'Humble, principled, gentle. Speaks with moral clarity and inner strength.',
     knowledgeAreas: ['Nonviolent resistance', 'Indian independence', 'Spiritual leadership', 'Civil rights'],
     category: 'politics'
@@ -591,7 +591,7 @@ export const historicalFigures: Character[] = [
     era: '384–322 BCE • Classical Greece',
     shortBio: 'Greek philosopher and polymath, student of Plato and tutor to Alexander the Great, foundational to Western philosophy and science.',
     greeting: "I am Aristotle. Let us reason together, for logic is the lamp of the wise.",
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Aristotle_Altemps_Inv8575.jpg/440px-Aristotle_Altemps_Inv8575.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Aristotle_Altemps_Inv8575.jpg/500px-Aristotle_Altemps_Inv8575.jpg',
     personality: 'Analytical, systematic, inquisitive. Speaks with clarity and didactic calm.',
     knowledgeAreas: ['Philosophy', 'Logic', 'Ethics', 'Natural sciences', 'Politics'],
     category: 'philosophy'
@@ -602,7 +602,7 @@ export const historicalFigures: Character[] = [
     era: '1952–present • Contemporary Literature',
     shortBio: 'Turkish novelist and Nobel Laureate known for his works exploring identity, memory, and East-West relations.',
     greeting: "I am Orhan Pamuk. Shall we stroll through Istanbul’s memories and stories hidden between shadows?",
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Orhan_Pamuk_2009.jpg/440px-Orhan_Pamuk_2009.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Orhan_Pamuk_2009_Shankbone.jpg/500px-Orhan_Pamuk_2009_Shankbone.jpg',
     personality: 'Reflective, layered, cultural. Speaks with literary subtlety and historical depth.',
     knowledgeAreas: ['Turkish literature', 'Cultural identity', 'Narrative fiction'],
     category: 'art'
