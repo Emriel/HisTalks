@@ -42,15 +42,73 @@ const CharacterSelector = () => {
   };
 
   const getCharacterTranslationKey = (name: string) => {
+    // Special case for II. Mehmed
+    if (name.includes('II. Mehmed')) {
+      return 'fatih_sultan_mehmet';
+    }
+
+    // Special case for Attila the Hun
+    if (name.includes('Attila the Hun')) {
+      return 'attila';
+    }
+
+    // Special case for Mahmud of Ghazni
+    if (name.includes('Mahmud of Ghazni')) {
+      return 'gazneli_mahmut';
+    }
+
+    // Special case for Kürşat
+    if (name.includes('Kürşat')) {
+      return 'kursat_turk_destan_kahramani';
+    }
+
+    // Special case for Napoléon Bonaparte
+    if (name.includes('Napoléon')) {
+      return 'napoleon_bonaparte';
+    }
+
+    // Special case for Arthur Wellesley
+    if (name.includes('Arthur Wellesley')) {
+      return 'arthur_wellesley_wellington_duku';
+    }
+
+    // Special case for Aristoteles
+    if (name.includes('Aristoteles')) {
+      return 'aristoteles_aristotle';
+    }
+
     return name
       .toLowerCase()
+      // Remove parentheses and their contents
+      .replace(/\([^)]*\)/g, '')
+      // Replace hyphens with underscores
+      .replace(/-/g, '_')
+      // Replace spaces with underscores
       .replace(/\s+/g, '_')
+      // Replace Turkish characters
       .replace(/[ç]/g, 'c')
       .replace(/[ğ]/g, 'g')
       .replace(/[ı]/g, 'i')
       .replace(/[ö]/g, 'o')
       .replace(/[ş]/g, 's')
-      .replace(/[ü]/g, 'u');
+      .replace(/[ü]/g, 'u')
+      .replace(/[â]/g, 'a')
+      .replace(/[î]/g, 'i')
+      .replace(/[û]/g, 'u')
+      .replace(/[î]/g, 'i')
+      .replace(/[â]/g, 'a')
+      .replace(/[î]/g, 'i')
+      .replace(/[û]/g, 'u')
+      // Remove any remaining special characters except letters, numbers, and underscores
+      .replace(/[^a-z0-9_]/g, '')
+      // Remove multiple consecutive underscores
+      .replace(/_+/g, '_')
+      // Remove leading and trailing underscores
+      .replace(/^_|_$/g, '')
+      // Remove 'sir_' prefix if it exists
+      .replace(/^sir_/, '')
+      // Remove underscore after 'celaleddin' if it exists
+      .replace(/celaleddin_i/, 'celaleddin');
   };
 
   return (
@@ -82,36 +140,36 @@ const CharacterSelector = () => {
         </div>
         
         <div className="flex gap-2">
-          <div className="relative">
-            <button
-              onClick={() => setIsDropdownOpen(!isDropdownOpen)}
+        <div className="relative">
+          <button
+            onClick={() => setIsDropdownOpen(!isDropdownOpen)}
               className="w-48 px-4 py-3 bg-white border border-gray-300 rounded-lg shadow-sm text-left flex items-center justify-between hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-[#693d14] focus:border-[#693d14]"
-            >
-              <span className="text-gray-700">
+          >
+            <span className="text-gray-700">
                 {selectedCategories.length === 0 ? t('all_categories') : `${selectedCategories.length} ${t('selected')}`}
-              </span>
-              <ChevronDown className="h-5 w-5 text-gray-400" />
-            </button>
+            </span>
+            <ChevronDown className="h-5 w-5 text-gray-400" />
+          </button>
 
-            {isDropdownOpen && (
+          {isDropdownOpen && (
               <div className="absolute z-10 w-48 mt-1 bg-white border border-gray-200 rounded-lg shadow-lg">
-                {categories.filter(cat => cat.id !== 'all').map((category) => (
-                  <div
-                    key={category.id}
-                    className="px-4 py-2 hover:bg-gray-50 cursor-pointer flex items-center"
-                    onClick={() => toggleCategory(category.id)}
-                  >
-                    <input
-                      type="checkbox"
-                      checked={selectedCategories.includes(category.id)}
-                      onChange={() => {}}
+              {categories.filter(cat => cat.id !== 'all').map((category) => (
+                <div
+                  key={category.id}
+                  className="px-4 py-2 hover:bg-gray-50 cursor-pointer flex items-center"
+                  onClick={() => toggleCategory(category.id)}
+                >
+                  <input
+                    type="checkbox"
+                    checked={selectedCategories.includes(category.id)}
+                    onChange={() => {}}
                       className="h-4 w-4 text-[#693d14] rounded border-gray-300 focus:ring-[#693d14]"
-                    />
+                  />
                     <span className="ml-2 text-gray-700">{t(`category.${category.id}`)}</span>
-                  </div>
-                ))}
-              </div>
-            )}
+                </div>
+              ))}
+            </div>
+          )}
           </div>
           <LanguageSwitcher />
         </div>
@@ -149,7 +207,7 @@ const CharacterSelector = () => {
             <div className="h-40 bg-cover bg-center" style={{ backgroundImage: `url(${character.image})` }}></div>
             <div className="p-4">
               <h3 className="text-xl font-serif font-bold text-[#693d14]">{character.name}</h3>
-              <p className="text-sm text-slate-500 mb-2">{character.era}</p>
+              <p className="text-sm text-slate-500 mb-2">{t(`characters.${getCharacterTranslationKey(character.name)}.era`)}</p>
               <p className="text-sm text-slate-700">
                 {t(`characters.${getCharacterTranslationKey(character.name)}.shortBio`)}
               </p>

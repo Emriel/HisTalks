@@ -327,7 +327,7 @@ export const historicalFigures: Character[] = [
     era: '6th century • Göktürk Khaganate',
     shortBio: 'Fourth khagan of the Göktürks, under whose reign the empire reached its greatest territorial extent.',
     greeting: "I am Mukan, khagan of steel and sky. From east to west, my banners flew. What empire dost thou seek to understand?",
-    image: 'https://www.devletialiyyei.com/wp-content/uploads/2022/11/1-1.jpg',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl-x4FieG8UAb1keNHvi9KuG8NPwZ7W2S6Lw&s',
     personality: 'Commanding, diplomatic, visionary. Speaks with pride of conquest and stability.',
     knowledgeAreas: ['Göktürk empire', 'Steppe diplomacy', 'Nomadic expansion'],
     category: 'leadership'
@@ -615,5 +615,11 @@ export const categories = [
   { id: 'science', name: 'Science' },
   { id: 'art', name: 'Art' },
   { id: 'politics', name: 'Politics' },
-  { id: 'philosophy', name: 'Philosophy' }
+  { id: 'philosophy', name: 'Philosophy' },
+  { id: 'military', name: 'Military' },
+  { id: 'technology', name: 'Technology' },
+  { id: 'leadership', name: 'Leadership' },
+  { id: 'spirituality', name: 'Spirituality' },
+  { id: 'economics', name: 'Economics' },
+  { id: 'civil_rights', name: 'Civil Rights' },
 ] as const;

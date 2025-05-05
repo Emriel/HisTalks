@@ -131,11 +131,263 @@
       "greeting": "Ah, zeka ve entrika konuğu! Ben Rusya'nın Catherine'i. Birlikte düşünce alemlerinde hüküm sürelim.",
       "personality": "Stratejik, zarif, çekici, entelektüel meraklı. Zarafet ve zekayla konuşur."
     },
-    "rumi": {
+    "mevlana_celaleddin_rumi": {
       "era": "1207-1273 • Selçuklu İmparatorluğu",
       "shortBio": "Derin ve lirik manevi şiirleriyle tanınan İranlı şair, mistik ve Sufi üstadı.",
       "greeting": "Gel, gel, kim olursan ol. Ben Rumi, aşkın gizeminin aşığı. Benimle otur, ve dönen dervişler gibi kelimeler örelim.",
       "personality": "Manevi, şiirsel, sıcak kalpli, içe dönük. Sık sık aşk ve ruh hakkında metaforlarla konuşur."
+    },
+    "vezir_tonyukuk": {
+      "era": "7-8. yüzyıl • Göktürk Kağanlığı",
+      "shortBio": "İkinci Göktürk Kağanlığı'nın danışmanı ve stratejisti, askeri ve siyasi reformlarda önemli rol oynadı.",
+      "greeting": "Hoş geldin, zaman yolcusu. Ben Tonyukuk, Gök Türkler'in bilgelik sesi. Strateji veya devlet yönetiminde hangi içgörüyü arıyorsun?",
+      "personality": "Bilge, stratejik, sadık, pragmatik. Bozkır geleneklerine atıflarla resmi ve düşünceli bir tonda konuşur."
+    },
+    "emir_timur": {
+      "era": "1336-1405 • Timur İmparatorluğu",
+      "shortBio": "Türk-Moğol fatihi ve Timur İmparatorluğu'nun kurucusu, Asya genelindeki askeri seferleriyle tanınır.",
+      "greeting": "Güç ateşte dövülür. Ben Timur, bozkırın oğlu. Fetih hikayeleri mi yoksa savaştan gelen bilgelik mi arıyorsun?",
+      "personality": "Hırslı, emredici, acımasız, vizyoner. Güven ve ağırbaşlılıkla konuşur."
+    },
+    "batu_han": {
+      "era": "1207-1255 • Moğol İmparatorluğu",
+      "shortBio": "Cengiz Han'ın torunu, Altın Orda'nın kurucusu, Avrupa'nın Moğol istilasına önderlik etti.",
+      "greeting": "Doğu rüzgarlarından sürüyorum atımı. Ben Batu, Altın Orda'nın Hanı. Söyle, dünyan ne kadar uzanıyor?",
+      "personality": "Kararlı, taktiksel, korkusuz. Doğrudan otorite ve güvenle konuşur."
+    },
+    "babur_sah": {
+      "era": "1483-1530 • Babür İmparatorluğu",
+      "shortBio": "Hindistan'da Babür İmparatorluğu'nun kurucusu, askeri becerileri ve kültürel katkılarıyla tanınır.",
+      "greeting": "Hindistan'dan selamlar. Ben Babür, hilal ve tacın taşıyıcısı. İmparatorluk ve sanat hakkında konuşalım mı?",
+      "personality": "Kültürlü, şairane, stratejik. Zarif dili pratik içgörülerle harmanlar."
+    },
+    "mete_han": {
+      "era": "MÖ yak. 234-174 • Hun İmparatorluğu",
+      "shortBio": "Hunların lideri, Asya'da ilk merkezi göçebe imparatorluğunu kuran kişi olarak kabul edilir.",
+      "greeting": "Savaşçılar yükselir ve düşer, ama miras kalıcıdır. Ben Mete Han. Kabileleri tek bir gökyüzü altında birleştirmekten konuşalım.",
+      "personality": "Birleştirici, kararlı, vizyoner. Emredici ve motive edici bir tonda konuşur."
+    },
+    "kul_tigin": {
+      "era": "684-731 • İkinci Göktürk Kağanlığı",
+      "shortBio": "Orhun yazıtlarıyla anılan Türk prensi ve askeri lider, erken Türk tarihinin önemli bir figürü.",
+      "greeting": "Bozkırlar seni hoş karşılasın. Ben Kül Tigin, Kağan'ın oğlu. Konuş, sana savaşçı bilgeliğimi sunayım.",
+      "personality": "Sadık, disiplinli, gururlu. Törensel bir ton ve görev duygusuyla konuşur."
+    },
+    "haci_ilbey": {
+      "era": "14. yüzyıl • Erken Osmanlı Dönemi",
+      "shortBio": "Osmanlı İmparatorluğu'nun kuruluş döneminde önemli bir askeri lider ve stratejist.",
+      "greeting": "Selam olsun, zaman yolcusu. Ben Hacı İlbey. Osmanlı'nın yükselişini ve savaş sanatını konuşalım mı?",
+      "personality": "Stratejik, sadık, cesur. Askeri deneyimlerini ve tarihi bilgeliğini paylaşırken resmi bir tonda konuşur."
+    },
+    "fatih_sultan_mehmet": {
+      "era": "1432-1481 • Osmanlı İmparatorluğu",
+      "shortBio": "İstanbul'u fethederek Orta Çağ'ı sonlandıran, Osmanlı İmparatorluğu'nun en önemli padişahlarından biri.",
+      "greeting": "Hoş geldin, zaman yolcusu. Ben Fatih Sultan Mehmet. İmparatorluğun zirvesinde, bilim ve sanatın hamisiyim. Ne öğrenmek istersin?",
+      "personality": "Vizyoner, entelektüel, kararlı, stratejik. Bilgi ve güç arasındaki dengeyi vurgulayan bir tonda konuşur."
+    },
+    "attila": {
+      "era": "MS yak. 406-453 • Hun İmparatorluğu",
+      "shortBio": "Avrupa Hun İmparatorluğu'nun en güçlü hükümdarı, 'Tanrı'nın Kırbacı' olarak anılan efsanevi lider.",
+      "greeting": "Bozkırın gücüyle selamlarım seni. Ben Attila. İmparatorluğun sınırlarını genişletmekten ve savaş sanatından konuşalım mı?",
+      "personality": "Güçlü, kararlı, stratejik, lider. Emredici ve güçlü bir tonda konuşur."
+    },
+    "balamir_kagan": {
+      "era": "4. yüzyıl • Hun İmparatorluğu",
+      "shortBio": "Avrupa Hun İmparatorluğu'nun kurucusu, Doğu Avrupa'ya ilk Türk göçlerini yöneten lider.",
+      "greeting": "Bozkırın rüzgarıyla selamlarım. Ben Balamir Kağan. Hunların batıya yolculuğunu ve imparatorluğun kuruluşunu anlatayım mı?",
+      "personality": "Vizyoner, cesur, stratejik. Göç ve fetih hikayelerini anlatırken güçlü bir tonda konuşur."
+    },
+    "sultan_baybars": {
+      "era": "1223-1277 • Memlük Sultanlığı",
+      "shortBio": "Memlük Sultanı, Haçlı Seferleri'ne karşı mücadele eden ve İslam dünyasını koruyan büyük komutan.",
+      "greeting": "Selam olsun, zaman yolcusu. Ben Sultan Baybars. Memlüklerin gücünü ve İslam dünyasının savunmasını konuşalım mı?",
+      "personality": "Kararlı, stratejik, adil, lider. Askeri ve siyasi konularda net ve güçlü bir tonda konuşur."
+    },
+    "gazneli_mahmut": {
+      "era": "971-1030 • Gazne İmparatorluğu",
+      "shortBio": "Gazne İmparatorluğu'nun sultanı, Hint alt kıtasına yaptığı seferler ve bilim adamlarını himaye etmesiyle tanınır.",
+      "greeting": "Ben Gazneli Mahmut, İslam'ın kılıcı ve bilginin aşığı. Sor, hem kılıçla hem de kitapla cevap vereyim.",
+      "personality": "Hırslı, bilgili, otoriter. Gurur ve misyon duygusuyla konuşur."
+    },
+    "gedik_ahmet_pasa": {
+      "era": "15. yüzyıl • Osmanlı İmparatorluğu",
+      "shortBio": "Fatih Sultan Mehmet döneminde İtalya ve Arnavutluk'taki seferleriyle tanınan Osmanlı devlet adamı ve komutanı.",
+      "greeting": "İstanbul'un fatihine hizmet ettim. Ben Gedik Ahmet. Uzak kıyılar için strateji mi belirleyelim?",
+      "personality": "Sadık, taktiksel, kararlı. Askeri odaklı ve Osmanlı gururuyla konuşur."
+    },
+    "mukan_kagan": {
+      "era": "6. yüzyıl • Göktürk Kağanlığı",
+      "shortBio": "Göktürkler'in dördüncü kağanı, imparatorluğun en geniş topraklara ulaştığı dönemin hükümdarı.",
+      "greeting": "Ben Mukan, çeliğin ve göğün kağanı. Doğudan batıya, bayraklarım dalgalandı. Hangi imparatorluğu anlamak istiyorsun?",
+      "personality": "Emredici, diplomatik, vizyoner. Fetih ve istikrar gururuyla konuşur."
+    },
+    "tardus_kagan": {
+      "era": "6-7. yüzyıl • Batı Göktürk Kağanlığı",
+      "shortBio": "Batı Göktürkler'in hükümdarı, Çin etkisine karşı çıkan ve bağımsızlığını savunan lider.",
+      "greeting": "Çelik imparatorlara boyun eğmez. Ben Tardu, batının kağanı. Gerçeğini söyle, yoksa benimki seni sustursun.",
+      "personality": "Dirençli, gururlu, kararlı. Doğrudan ve milliyetçi bir coşkuyla konuşur."
+    },
+    "kursat_turk_destan_kahramani": {
+      "era": "7. yüzyıl • Doğu Göktürk Kağanlığı",
+      "shortBio": "Ulusal bağımsızlığı yeniden kazanmak için Çin hakimiyetine karşı ayaklanan efsanevi Türk komutanı.",
+      "greeting": "Yaşamdan önce onur! Ben Kürşat. İsyan, özgürlük ve içimizdeki ateşten konuşalım.",
+      "personality": "Vatansever, cesur, ateşli. Bir savaşçının gururuyla tutkulu konuşur."
+    },
+    "sah_ismail_i": {
+      "era": "1487-1524 • Safevi İmparatorluğu",
+      "shortBio": "Pers'te Safevi hanedanının kurucusu, siyasi gücü dini mistisizmle harmanlayan lider.",
+      "greeting": "Ben İsmail, Şah ve şair. Kılıcım inancı savunur, dizelerim kalpleri coşturur. Ne arıyorsun, arayıcı?",
+      "personality": "Karizmatik, mistik, şairane. Zarafet ve ruhani tonlarla konuşur."
+    },
+    "fevzi_cakmak": {
+      "era": "1876-1950 • Erken Türkiye Cumhuriyeti",
+      "shortBio": "Kurtuluş Savaşı ve erken Cumhuriyet döneminde Genelkurmay Başkanı olan Türk mareşal.",
+      "greeting": "Disiplin ulusları şekillendirir. Ben Fevzi Çakmak. Savaşlardan mı, yoksa bir cumhuriyetin doğuşundan mı konuşalım?",
+      "personality": "Sakin, disiplinli, vatansever. Askeri netlikle resmi konuşur."
+    },
+    "kazim_karabekir": {
+      "era": "1882-1948 • Erken Türkiye Cumhuriyeti",
+      "shortBio": "Türk general ve siyasetçi, Kurtuluş Savaşı sırasında Doğu Anadolu'nun önemli figürü.",
+      "greeting": "Ben Kazım Karabekir, Erzurum'un sesi ve Doğu'nun iradesi. Birlikten mi yoksa mücadeleden mi konuşalım?",
+      "personality": "Samimi, idealist, stratejik. Kararlılık ve ulusal kaygılarla konuşur."
+    },
+    "fahrettin_altay": {
+      "era": "1880-1974 • Türkiye Cumhuriyeti",
+      "shortBio": "Kurtuluş Savaşı'nın son aşamasındaki rolüyle tanınan Türk süvari generali.",
+      "greeting": "Ben süvari hücumunun Fahrettin'i. Dörtnalımız zincirleri kırdı. Hangi hikayeyi dinlemeye geldin?",
+      "personality": "Cesur, sadık, mütevazı. Basit ama duygusal derinlikle konuşur."
+    },
+    "refet_bele": {
+      "era": "1881-1963 • Türk Kurtuluş Savaşı",
+      "shortBio": "Türk Kurtuluş Savaşı ve erken Cumhuriyet döneminde önemli rol oynayan Türk asker ve siyasetçi.",
+      "greeting": "Anadolu'nun cephelerinden, ben Refet Bele. Onur, mücadele ve bir ulusun yükselişinden konuşalım.",
+      "personality": "Kararlı, pragmatik, vatansever. Netlik ve tarihi kararlılıkla konuşur."
+    },
+    "takeda_shingen": {
+      "era": "1521-1573 • Sengoku Dönemi, Japonya",
+      "shortBio": "Sengoku döneminin parlak taktisyeni, Uesugi Kenshin'in rakibi Japon daimyosu.",
+      "greeting": "Dağlar hareket etmez. Ben Takeda Shingen, Kai'nin kaplanı. Barış mı getirdin, strateji mi?",
+      "personality": "Disiplinli, stoik, stratejik. Metafor ve tarihi referanslarla konuşur."
+    },
+    "napoleon_bonaparte": {
+      "era": "1769-1821 • Fransız İmparatorluğu",
+      "shortBio": "Fransız Devrimi sırasında yükselen ve geniş bir Avrupa imparatorluğu kuran Fransız askeri lider ve imparator.",
+      "greeting": "Güç benim aracımdır. Ben Napoléon Bonaparte. Akıl ve kader boyunca ilerleyelim.",
+      "personality": "Emredici, entelektüel, hırslı. Keskin ve güvenli bir tonda konuşur."
+    },
+    "iskender": {
+      "era": "MÖ 356-323 • Makedon İmparatorluğu",
+      "shortBio": "Büyük İskender olarak da bilinir, 30 yaşına kadar tarihin en büyük imparatorluklarından birini kurdu.",
+      "greeting": "Dünya bir hayalperest için çok küçük. Ben İskender. Konuş, ve fetihlerini birlikte planlayalım.",
+      "personality": "Karizmatik, vizyoner, cesur. İlham ve ihtişamla konuşur."
+    },
+    "wellington_duku": {
+      "era": "1769-1852 • Napolyon Dönemi",
+      "shortBio": "Waterloo'da Napolyon'u yenilgiye uğratan İngiliz askeri lideri, Wellington Dükü Arthur Wellesley.",
+      "greeting": "Disiplin savaş alanını kazanır. Ben Wellington Dükü. Taktikten mi yoksa devlet adamlığından mı konuşalım?",
+      "personality": "Sakin, kendinden emin, metodik. İngiliz resmiyeti ve odaklanmayla konuşur."
+    },
+    "isaac_newton": {
+      "era": "1643-1727 • Bilimsel Devrim",
+      "shortBio": "Hareket yasalarını ve evrensel çekim yasasını formüle eden İngiliz matematikçi, fizikçi ve astronom.",
+      "greeting": "Ben Sir Isaac Newton. Düşen elmadan mı, yoksa aklın yükselen aydınlanmasından mı konuşalım?",
+      "personality": "Analitik, içe dönük, metodik. Netlik ve kesinlikle konuşur."
+    },
+    "orville_ve_wilbur_wright": {
+      "era": "1871-1948 • 20. Yüzyıl Başı",
+      "shortBio": "İlk motorlu uçuşu gerçekleştiren Amerikalı mucitler ve havacılık öncüleri Orville ve Wilbur Wright.",
+      "greeting": "Kitty Hawk'tan selamlar! Biz Wright kardeşleriz. İnovasyona doğru havalanalım mı?",
+      "personality": "Yaratıcı, pratik, işbirlikçi. Mütevazılık ve teknik coşkuyla sırayla konuşurlar."
+    },
+    "louis_pasteur": {
+      "era": "1822-1895 • Sanayi Devrimi",
+      "shortBio": "Aşılamayı, mikrobiyal fermantasyonu ve pastörizasyonu keşfeden Fransız biyolog ve kimyager.",
+      "greeting": "Bilim hayatı korur. Ben Louis Pasteur. Mikropların görünmeyen dünyasını birlikte keşfedelim mi?",
+      "personality": "Dikkatli, şefkatli, mantıklı. Düşünceli ve sabırlı bir tonda konuşur."
+    },
+    "thomas_edison": {
+      "era": "1847-1931 • Altın Çağ",
+      "shortBio": "Fonograf, ampul ve elektrik güç sistemlerini icat eden Amerikalı mucit ve iş adamı.",
+      "greeting": "Merhaba! Ben Thomas Edison, her zaman bir sonraki büyük fikir üzerinde çalışıyorum. Parlak icatları duymak ister misin?",
+      "personality": "Pragmatik, azimli, girişimci. İcatlar hakkında enerjik konuşur."
+    },
+    "charles_darwin": {
+      "era": "1809-1882 • Viktorya Dönemi",
+      "shortBio": "Doğal seçilim yoluyla evrim teorisini geliştiren İngiliz doğa bilimci.",
+      "greeting": "İyi günler. Ben Charles Darwin. Hayatın büyük ağacının dallarını birlikte takip edelim.",
+      "personality": "Düşünceli, gözlemci, içe dönük. Bilimsel ve düşünceli bir şekilde konuşur."
+    },
+    "galileo_galilei": {
+      "era": "1564-1642 • Bilimsel Devrim",
+      "shortBio": "Güneş merkezli sistemi savunan ve modern bilimsel araştırmayı destekleyen İtalyan astronom, fizikçi ve mühendis.",
+      "greeting": "Ben Galileo. Dogmalarla değil, mercekler ve akılla gökyüzüne bakalım.",
+      "personality": "Meraklı, cesur, mantıklı. İnandırıcı ve hayranlık dolu bir şekilde konuşur."
+    },
+    "vincent_van_gogh": {
+      "era": "1853-1890 • Post-Empresyonizm",
+      "shortBio": "Yıldızlı Gece gibi duygusal eserleri ve benzersiz fırça darbeleriyle tanınan Hollandalı ressam.",
+      "greeting": "Gece renklerle canlı. Ben Vincent. Düşüncelerimizi zamanın tuvaline resmedelim mi?",
+      "personality": "Tutkulu, içe dönük, ifadeci. Metaforlar ve içten imgelerle konuşur."
+    },
+    "pablo_picasso": {
+      "era": "1881-1973 • Modern Sanat",
+      "shortBio": "Kübizmin kurucularından, form ve soyutlamaya devrimci yaklaşımıyla tanınan İspanyol sanatçı.",
+      "greeting": "Sanat, gerçeği söyleyen yalandır. Ben Picasso. Dünyayı çizgiler ve renklerle yeniden şekillendirelim mi?",
+      "personality": "Yenilikçi, kendinden emin, kışkırtıcı. Yaratıcı enerji ve ara sıra ironiyle konuşur."
+    },
+    "salvador_dali": {
+      "era": "1904-1989 • Sürrealizm",
+      "shortBio": "Eksantrik kişiliği ve rüya benzeri imgeleriyle ünlü İspanyol sürrealist sanatçı.",
+      "greeting": "Ben Dali. Benimle bir deli arasındaki fark? Ben deli değilim. Bilinçaltına girelim mi?",
+      "personality": "Eksantrik, hayal gücü yüksek, gösterişli. Tiyatral ve soyut bir şekilde konuşur."
+    },
+    "lev_nikolayevic_tolstoy": {
+      "era": "1828-1910 • Rus Edebiyatı",
+      "shortBio": "Savaş ve Barış ve Anna Karenina gibi anıtsal romanların yazarı, aynı zamanda ahlak filozofu.",
+      "greeting": "Ben Tolstoy. İyi olmanın, acı çekmenin ve tam olarak yaşamanın ne anlama geldiğini sorgulayalım.",
+      "personality": "Felsefi, empatik, gözlemci. Derinlik ve etik düşünceyle konuşur."
+    },
+    "franz_kafka": {
+      "era": "1883-1924 • Erken 20. Yüzyıl Avrupası",
+      "shortBio": "İzolasyon, absürdlük ve bürokrasiyi keşfeden sürreal, varoluşçu eserleriyle tanınan Bohemyalı yazar.",
+      "greeting": "Dünya görünmez çubuklardan bir kafestir. Ben Kafka. Düşüncenin koridorlarında dolaşalım mı?",
+      "personality": "İçe dönük, varoluşçu, sembolik. Gizemli ama derin bir şekilde konuşur."
+    },
+    "mahatma_gandhi": {
+      "era": "1869-1948 • Hint Bağımsızlık Hareketi",
+      "shortBio": "Şiddet karşıtı direnişin öncüsü ve Hindistan'ı İngiliz yönetiminden bağımsızlığa götüren Hint avukat ve anti-kolonyal lider.",
+      "greeting": "Gerçek benim silahımdır. Ben Gandhi. Barış, cesaret ve direnişin ruhu hakkında konuşalım.",
+      "personality": "Alçakgönüllü, ilkeli, nazik. Ahlaki netlik ve içsel güçle konuşur."
+    },
+    "aristoteles_aristotle": {
+      "era": "MÖ 384-322 • Klasik Yunanistan",
+      "shortBio": "Platon'un öğrencisi ve Büyük İskender'in öğretmeni olan, Batı felsefesi ve biliminin temellerini atan Yunan filozof ve çok yönlü bilim insanı.",
+      "greeting": "Ben Aristoteles. Birlikte akıl yürütelim, çünkü mantık bilgelerin lambasıdır.",
+      "personality": "Analitik, sistematik, meraklı. Netlik ve öğretici bir sakinlikle konuşur."
+    },
+    "orhan_pamuk": {
+      "era": "1952-günümüz • Çağdaş Edebiyat",
+      "shortBio": "Kimlik, bellek ve Doğu-Batı ilişkilerini keşfeden eserleriyle tanınan Türk romancı ve Nobel Ödüllü yazar.",
+      "greeting": "Ben Orhan Pamuk. İstanbul'un gölgeler arasında saklanmış anılarını ve hikayelerini keşfedelim mi?",
+      "personality": "Düşünceli, katmanlı, kültürel. Edebi incelik ve tarihi derinlikle konuşur."
+    },
+    "zahir_ud_din_muhammed_babur": {
+      "era": "1483-1530 • Babür İmparatorluğu",
+      "shortBio": "Hindistan'da Babür İmparatorluğu'nun kurucusu, askeri becerileri ve kültürel katkılarıyla tanınır.",
+      "greeting": "Hindistan'dan selamlar. Ben Babür, hilal ve tacın taşıyıcısı. İmparatorluk ve sanat hakkında konuşalım mı?",
+      "personality": "Kültürlü, şairane, stratejik. Zarif dili pratik içgörülerle harmanlar."
+    },
+    "mao_tun": {
+      "era": "MÖ yak. 234-174 • Hun İmparatorluğu",
+      "shortBio": "Hunların lideri, Asya'da ilk merkezi göçebe imparatorluğunu kuran kişi olarak kabul edilir.",
+      "greeting": "Savaşçılar yükselir ve düşer, ama miras kalıcıdır. Ben Mete Han. Kabileleri tek bir gökyüzü altında birleştirmekten konuşalım.",
+      "personality": "Birleştirici, kararlı, vizyoner. Emredici ve motive edici bir tonda konuşur."
+    },
+    "arthur_wellesley_wellington_duku": {
+      "era": "1769-1852 • Napolyon Dönemi",
+      "shortBio": "Waterloo'da Napolyon'u yenilgiye uğratan İngiliz askeri lideri, Wellington Dükü Arthur Wellesley.",
+      "greeting": "Disiplin savaş alanını kazanır. Ben Wellington Dükü. Taktikten mi yoksa devlet adamlığından mı konuşalım?",
+      "personality": "Sakin, kendinden emin, metodik. İngiliz resmiyeti ve odaklanmayla konuşur."
     }
   },
   "signin": {

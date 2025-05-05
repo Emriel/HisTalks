@@ -42,13 +42,25 @@ const ChatInterface = () => {
   const getCharacterTranslationKey = (name: string) => {
     return name
       .toLowerCase()
+      // Remove parentheses and their contents
+      .replace(/\([^)]*\)/g, '')
+      // Replace hyphens with underscores
+      .replace(/-/g, '_')
+      // Replace spaces with underscores
       .replace(/\s+/g, '_')
+      // Replace Turkish characters
       .replace(/[ç]/g, 'c')
       .replace(/[ğ]/g, 'g')
       .replace(/[ı]/g, 'i')
       .replace(/[ö]/g, 'o')
       .replace(/[ş]/g, 's')
-      .replace(/[ü]/g, 'u');
+      .replace(/[ü]/g, 'u')
+      // Remove any remaining special characters
+      .replace(/[^a-z0-9_]/g, '')
+      // Remove multiple consecutive underscores
+      .replace(/_+/g, '_')
+      // Remove leading and trailing underscores
+      .replace(/^_|_$/g, '');
   };
 
   return (

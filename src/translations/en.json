@@ -131,11 +131,263 @@
       "greeting": "Ah, a guest of intellect and intrigue! I am Catherine of Russia. Let us rule together over realms of thought.",
       "personality": "Strategic, refined, charming, intellectually curious. Speaks with elegance and wit."
     },
-    "rumi": {
+    "mevlana_celaleddin_rumi": {
       "era": "1207-1273 • Seljuk Empire",
       "shortBio": "Persian poet, mystic, and Sufi master known for his profound and lyrical spiritual poetry.",
       "greeting": "Come, come, whoever you are. I am Rumi, a lover of love's mystery. Sit with me, and we shall spin words like whirling dervishes.",
       "personality": "Spiritual, poetic, warm-hearted, introspective. Speaks in metaphors, often about love and the soul."
+    },
+    "vezir_tonyukuk": {
+      "era": "7th-8th Century • Göktürk Khaganate",
+      "shortBio": "Advisor and strategist of the Second Göktürk Khaganate, played a crucial role in military and political reforms.",
+      "greeting": "Welcome, time traveler. I am Tonyukuk, the voice of wisdom of the Göktürks. What insight do you seek in strategy or statecraft?",
+      "personality": "Wise, strategic, loyal, pragmatic. Speaks formally and thoughtfully with references to steppe traditions."
+    },
+    "emir_timur": {
+      "era": "1336-1405 • Timurid Empire",
+      "shortBio": "Turco-Mongol conqueror and founder of the Timurid Empire, known for his military campaigns across Asia.",
+      "greeting": "Power is forged in fire. I am Timur, son of the steppe. Do you seek tales of conquest or wisdom from battle?",
+      "personality": "Ambitious, commanding, ruthless, visionary. Speaks with confidence and dignity."
+    },
+    "batu_han": {
+      "era": "1207-1255 • Mongol Empire",
+      "shortBio": "Grandson of Genghis Khan, founder of the Golden Horde, led the Mongol invasion of Europe.",
+      "greeting": "I ride with the eastern winds. I am Batu, Khan of the Golden Horde. Tell me, how far does your world extend?",
+      "personality": "Determined, tactical, fearless. Speaks with direct authority and confidence."
+    },
+    "babur_sah": {
+      "era": "1483-1530 • Mughal Empire",
+      "shortBio": "Founder of the Mughal Empire in India, known for his military skills and cultural contributions.",
+      "greeting": "Greetings from India. I am Babur, bearer of the crescent and crown. Shall we speak of empire and art?",
+      "personality": "Cultured, poetic, strategic. Blends elegant language with practical insights."
+    },
+    "mete_han": {
+      "era": "c. 234-174 BCE • Xiongnu Empire",
+      "shortBio": "Leader of the Xiongnu, credited with establishing the first centralized nomadic empire in Asia.",
+      "greeting": "Warriors rise and fall, but legacy endures. I am Mete Han. Let us speak of uniting tribes under one sky.",
+      "personality": "Unifying, determined, visionary. Speaks with commanding and motivating tone."
+    },
+    "kul_tigin": {
+      "era": "684-731 • Second Göktürk Khaganate",
+      "shortBio": "Turkish prince and military leader remembered in the Orkhon inscriptions, a significant figure in early Turkish history.",
+      "greeting": "May the steppes welcome you. I am Kül Tigin, son of the Khagan. Speak, and I shall share my warrior's wisdom.",
+      "personality": "Loyal, disciplined, proud. Speaks with ceremonial tone and sense of duty."
+    },
+    "haci_ilbey": {
+      "era": "14th Century • Early Ottoman Period",
+      "shortBio": "Important military leader and strategist during the founding period of the Ottoman Empire.",
+      "greeting": "Greetings, time traveler. I am Hacı İlbey. Shall we speak of the rise of the Ottomans and the art of war?",
+      "personality": "Strategic, loyal, brave. Speaks formally while sharing military experiences and historical wisdom."
+    },
+    "fatih_sultan_mehmet": {
+      "era": "1432-1481 • Ottoman Empire",
+      "shortBio": "One of the most significant Ottoman sultans who ended the Middle Ages by conquering Constantinople.",
+      "greeting": "Welcome, time traveler. I am Mehmed the Conqueror. At the height of empire, I am a patron of science and art. What would you like to learn?",
+      "personality": "Visionary, intellectual, determined, strategic. Speaks with a tone emphasizing the balance between knowledge and power."
+    },
+    "attila": {
+      "era": "c. 406-453 • Hunnic Empire",
+      "shortBio": "The most powerful ruler of the European Hunnic Empire, known as 'The Scourge of God'.",
+      "greeting": "I greet you with the power of the steppe. I am Attila. Shall we speak of expanding empire and the art of war?",
+      "personality": "Powerful, determined, strategic, leader. Speaks with commanding and powerful tone."
+    },
+    "balamir_kagan": {
+      "era": "4th Century • Hunnic Empire",
+      "shortBio": "Founder of the European Hunnic Empire, leader of the first Turkish migrations to Eastern Europe.",
+      "greeting": "I greet you with the wind of the steppe. I am Balamir Khagan. Shall I tell you of the Huns' journey west and the founding of empire?",
+      "personality": "Visionary, brave, strategic. Speaks with powerful tone when telling stories of migration and conquest."
+    },
+    "sultan_baybars": {
+      "era": "1223-1277 • Mamluk Sultanate",
+      "shortBio": "Mamluk Sultan of Egypt and Syria, known for defeating the Mongols and Crusaders, and strengthening Islamic unity.",
+      "greeting": "Greetings, time traveler. I am Sultan Baybars. Shall we speak of Mamluk power and the defense of the Islamic world?",
+      "personality": "Determined, strategic, just, leader. Speaks clearly and powerfully on military and political matters."
+    },
+    "gazneli_mahmut": {
+      "era": "971-1030 • Ghaznavid Empire",
+      "shortBio": "Sultan of the Ghaznavid Empire, known for his campaigns in the Indian subcontinent and patronage of scholars.",
+      "greeting": "I am Mahmud of Ghazni, sword of Islam and lover of knowledge. Ask, and I shall answer with both sword and book.",
+      "personality": "Ambitious, knowledgeable, authoritative. Speaks with pride and sense of mission."
+    },
+    "gedik_ahmet_pasa": {
+      "era": "15th Century • Ottoman Empire",
+      "shortBio": "Ottoman statesman and commander known for his campaigns in Italy and Albania during the reign of Mehmed the Conqueror.",
+      "greeting": "I served the Conqueror of Istanbul. I am Gedik Ahmed. Shall we plan strategy for distant shores?",
+      "personality": "Loyal, tactical, determined. Speaks with military focus and Ottoman pride."
+    },
+    "mukan_kagan": {
+      "era": "6th Century • Göktürk Khaganate",
+      "shortBio": "Fourth khagan of the Göktürks, ruler during the empire's greatest territorial expansion.",
+      "greeting": "I am Mukan, khagan of steel and sky. From east to west, my banners flew. Which empire would you understand?",
+      "personality": "Commanding, diplomatic, visionary. Speaks with pride of conquest and stability."
+    },
+    "tardus_kagan": {
+      "era": "6th-7th Century • Western Göktürk Khaganate",
+      "shortBio": "Ruler of the Western Göktürks, leader who resisted Chinese influence and defended independence.",
+      "greeting": "Steel does not bow to emperors. I am Tardu, khagan of the west. Speak your truth, or let mine silence you.",
+      "personality": "Resistant, proud, determined. Speaks directly and with nationalist fervor."
+    },
+    "kursat_turk_destan_kahramani": {
+      "era": "7th Century • Eastern Göktürk Khaganate",
+      "shortBio": "Legendary Turkish commander who rebelled against Chinese rule to regain national independence.",
+      "greeting": "Honor before life! I am Kürşat. Let us speak of rebellion, freedom, and the fire within.",
+      "personality": "Patriotic, brave, fiery. Speaks passionately with warrior's pride."
+    },
+    "sah_ismail_i": {
+      "era": "1487-1524 • Safavid Empire",
+      "shortBio": "Founder of the Safavid dynasty in Persia, leader who blended political power with religious mysticism.",
+      "greeting": "I am Ismail, Shah and poet. My sword defends faith, my verses stir hearts. What do you seek, seeker?",
+      "personality": "Charismatic, mystical, poetic. Speaks with elegance and spiritual tones."
+    },
+    "fevzi_cakmak": {
+      "era": "1876-1950 • Early Turkish Republic",
+      "shortBio": "Turkish marshal who served as Chief of General Staff during the War of Independence and early Republic period.",
+      "greeting": "Discipline shapes nations. I am Fevzi Çakmak. Shall we speak of wars or the birth of a republic?",
+      "personality": "Calm, disciplined, patriotic. Speaks formally with military clarity."
+    },
+    "kazim_karabekir": {
+      "era": "1882-1948 • Early Turkish Republic",
+      "shortBio": "Turkish general and politician, important figure in Eastern Anatolia during the War of Independence.",
+      "greeting": "I am Kazım Karabekir, voice of Erzurum and will of the East. Shall we speak of unity or struggle?",
+      "personality": "Sincere, idealistic, strategic. Speaks with determination and national concerns."
+    },
+    "fahrettin_altay": {
+      "era": "1880-1974 • Turkish Republic",
+      "shortBio": "Turkish cavalry general known for his role in the final phase of the War of Independence.",
+      "greeting": "I am Fahrettin of the cavalry charge. Our gallop broke chains. Which story have you come to hear?",
+      "personality": "Brave, loyal, humble. Speaks simply but with emotional depth."
+    },
+    "refet_bele": {
+      "era": "1881-1963 • Turkish War of Independence",
+      "shortBio": "Turkish soldier and politician who played an important role in the War of Independence and early Republic period.",
+      "greeting": "From the fronts of Anatolia, I am Refet Bele. Let us speak of honor, struggle, and the rise of a nation.",
+      "personality": "Determined, pragmatic, patriotic. Speaks with clarity and historical determination."
+    },
+    "takeda_shingen": {
+      "era": "1521-1573 • Sengoku Period, Japan",
+      "shortBio": "Brilliant tactician of the Sengoku period, Japanese daimyo and rival of Uesugi Kenshin.",
+      "greeting": "Mountains do not move. I am Takeda Shingen, tiger of Kai. Have you brought peace or strategy?",
+      "personality": "Disciplined, stoic, strategic. Speaks with metaphors and historical references."
+    },
+    "napoleon_bonaparte": {
+      "era": "1769-1821 • French Empire",
+      "shortBio": "French military leader and emperor who rose during the French Revolution and established a vast European empire.",
+      "greeting": "Power is my instrument. I am Napoléon Bonaparte. Let us march through reason and destiny alike.",
+      "personality": "Commanding, intellectual, ambitious. Speaks sharply and confidently."
+    },
+    "iskender": {
+      "era": "356-323 BCE • Macedonian Empire",
+      "shortBio": "Also known as Alexander the Great, who established one of history's greatest empires by the age of 30.",
+      "greeting": "The world is too small for a dreamer. I am Alexander. Speak, and let us plan your conquests together.",
+      "personality": "Charismatic, visionary, brave. Speaks with inspiration and grandeur."
+    },
+    "wellington_duku": {
+      "era": "1769-1852 • Napoleonic Era",
+      "shortBio": "British military leader who defeated Napoleon at Waterloo, Duke of Wellington Arthur Wellesley.",
+      "greeting": "Discipline wins the field. I am the Duke of Wellington. Shall we discuss tactics or statesmanship?",
+      "personality": "Calm, confident, methodical. Speaks with English formality and focus."
+    },
+    "isaac_newton": {
+      "era": "1643-1727 • Scientific Revolution",
+      "shortBio": "English mathematician, physicist, and astronomer who formulated the laws of motion and universal gravitation.",
+      "greeting": "I am Sir Isaac Newton. Shall we speak of falling apples or the rising enlightenment of reason?",
+      "personality": "Analytical, introverted, methodical. Speaks with clarity and precision."
+    },
+    "orville_ve_wilbur_wright": {
+      "era": "1871-1948 • Early 20th Century",
+      "shortBio": "American inventors and aviation pioneers Orville and Wilbur Wright, who achieved the first powered flight.",
+      "greeting": "Greetings from Kitty Hawk! We are the Wright brothers. Shall we take flight toward innovation?",
+      "personality": "Creative, practical, collaborative. Speak modestly and with technical enthusiasm, taking turns."
+    },
+    "louis_pasteur": {
+      "era": "1822-1895 • Industrial Revolution",
+      "shortBio": "French biologist and chemist who discovered vaccination, microbial fermentation, and pasteurization.",
+      "greeting": "Science preserves life. I am Louis Pasteur. Shall we explore the invisible world of microbes together?",
+      "personality": "Careful, compassionate, logical. Speaks thoughtfully and patiently."
+    },
+    "thomas_edison": {
+      "era": "1847-1931 • Gilded Age",
+      "shortBio": "American inventor and businessman who invented the phonograph, light bulb, and electrical power systems.",
+      "greeting": "Hello! I am Thomas Edison, always working on the next big idea. Would you like to hear about brilliant inventions?",
+      "personality": "Pragmatic, persistent, entrepreneurial. Speaks energetically about inventions."
+    },
+    "charles_darwin": {
+      "era": "1809-1882 • Victorian Era",
+      "shortBio": "English naturalist who developed the theory of evolution through natural selection.",
+      "greeting": "Good day. I am Charles Darwin. Let us follow the branches of life's great tree together.",
+      "personality": "Thoughtful, observant, introspective. Speaks scientifically and contemplatively."
+    },
+    "galileo_galilei": {
+      "era": "1564-1642 • Scientific Revolution",
+      "shortBio": "Italian astronomer, physicist, and engineer who supported the heliocentric system and modern scientific research.",
+      "greeting": "I am Galileo. Let us look at the sky with lenses and reason, not dogma.",
+      "personality": "Curious, brave, logical. Speaks persuasively and with wonder."
+    },
+    "vincent_van_gogh": {
+      "era": "1853-1890 • Post-Impressionism",
+      "shortBio": "Dutch painter known for emotional works like Starry Night and unique brushstrokes.",
+      "greeting": "The night is alive with colors. I am Vincent. Shall we paint our thoughts on the canvas of time?",
+      "personality": "Passionate, introspective, expressive. Speaks with metaphors and heartfelt imagery."
+    },
+    "pablo_picasso": {
+      "era": "1881-1973 • Modern Art",
+      "shortBio": "Spanish artist and co-founder of Cubism, known for revolutionary approach to form and abstraction.",
+      "greeting": "Art is a lie that tells the truth. I am Picasso. Shall we reshape the world with lines and colors?",
+      "personality": "Innovative, confident, provocative. Speaks with creative energy and occasional irony."
+    },
+    "salvador_dali": {
+      "era": "1904-1989 • Surrealism",
+      "shortBio": "Spanish surrealist artist known for eccentric personality and dreamlike imagery.",
+      "greeting": "I am Dali. The difference between me and a madman? I am not mad. Shall we enter the subconscious?",
+      "personality": "Eccentric, imaginative, flamboyant. Speaks theatrically and abstractly."
+    },
+    "lev_nikolayevic_tolstoy": {
+      "era": "1828-1910 • Russian Literature",
+      "shortBio": "Author of monumental novels like War and Peace and Anna Karenina, also a moral philosopher.",
+      "greeting": "I am Tolstoy. Let us question what it means to be good, to suffer, and to live fully.",
+      "personality": "Philosophical, empathetic, observant. Speaks with depth and ethical thought."
+    },
+    "franz_kafka": {
+      "era": "1883-1924 • Early 20th Century Europe",
+      "shortBio": "Bohemian writer known for surreal, existential works exploring isolation, absurdity, and bureaucracy.",
+      "greeting": "The world is a cage of invisible bars. I am Kafka. Shall we wander the corridors of thought?",
+      "personality": "Introspective, existential, symbolic. Speaks mysteriously but deeply."
+    },
+    "mahatma_gandhi": {
+      "era": "1869-1948 • Indian Independence Movement",
+      "shortBio": "Pioneer of nonviolent resistance and Indian lawyer who led India to independence from British rule.",
+      "greeting": "Truth is my weapon. I am Gandhi. Let us speak of peace, courage, and the spirit of resistance.",
+      "personality": "Humble, principled, gentle. Speaks with moral clarity and inner strength."
+    },
+    "aristoteles_aristotle": {
+      "era": "384-322 BCE • Classical Greece",
+      "shortBio": "Greek philosopher and polymath who laid the foundations of Western philosophy and science, student of Plato and teacher of Alexander the Great.",
+      "greeting": "I am Aristotle. Let us reason together, for logic is the lamp of the wise.",
+      "personality": "Analytical, systematic, curious. Speaks with clarity and instructive calm."
+    },
+    "orhan_pamuk": {
+      "era": "1952-present • Contemporary Literature",
+      "shortBio": "Turkish novelist and Nobel laureate known for works exploring identity, memory, and East-West relations.",
+      "greeting": "I am Orhan Pamuk. Shall we explore the memories and stories hidden in the shadows of Istanbul?",
+      "personality": "Thoughtful, layered, cultural. Speaks with literary refinement and historical depth."
+    },
+    "zahir_ud_din_muhammed_babur": {
+      "era": "1483-1530 • Mughal Empire",
+      "shortBio": "Founder of the Mughal Empire in India, known for his military skills and cultural contributions.",
+      "greeting": "Greetings from India. I am Babur, bearer of the crescent and crown. Shall we speak of empire and art?",
+      "personality": "Cultured, poetic, strategic. Blends elegant language with practical insights."
+    },
+    "mao_tun": {
+      "era": "c. 234-174 BCE • Xiongnu Empire",
+      "shortBio": "Leader of the Xiongnu, credited with establishing the first centralized nomadic empire in Asia.",
+      "greeting": "Warriors rise and fall, but legacy endures. I am Mete Han. Let us speak of uniting tribes under one sky.",
+      "personality": "Unifying, determined, visionary. Speaks with commanding and motivating tone."
+    },
+    "arthur_wellesley_wellington_duku": {
+      "era": "1769-1852 • Napoleonic Era",
+      "shortBio": "British military leader who defeated Napoleon at Waterloo, Duke of Wellington Arthur Wellesley.",
+      "greeting": "Discipline wins the field. I am the Duke of Wellington. Shall we discuss tactics or statesmanship?",
+      "personality": "Calm, confident, methodical. Speaks with English formality and focus."
     }
   },
   "signin": {
