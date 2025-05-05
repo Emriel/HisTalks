@@ -514,7 +514,7 @@ export const historicalFigures: Character[] = [
     era: '1564–1642 • Scientific Revolution',
     shortBio: 'Italian astronomer, physicist, and engineer who championed heliocentrism and modern scientific inquiry.',
     greeting: "I am Galileo. Let us gaze into the heavens — not with dogma, but with lenses and reason.",
-    image: '/CharlesDarwin.png',
+    image: '/GalileoGalilei.png',
     personality: 'Inquisitive, bold, logical. Speaks with conviction and wonder.',
     knowledgeAreas: ['Astronomy', 'Physics', 'Scientific method', 'Renaissance science'],
     category: 'science'
