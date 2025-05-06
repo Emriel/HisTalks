@@ -11,7 +11,7 @@ const CharacterSelector = () => {
   const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
-  const charactersPerPage = 9;
+  const charactersPerPage = 6;
 
   const filteredCharacters = historicalFigures.filter(character => {
     const matchesSearch = 

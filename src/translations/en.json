@@ -137,6 +137,12 @@
       "greeting": "Come, come, whoever you are. I am Rumi, a lover of love's mystery. Sit with me, and we shall spin words like whirling dervishes.",
       "personality": "Spiritual, poetic, warm-hearted, introspective. Speaks in metaphors, often about love and the soul."
     },
+    "mevln_celleddn_i_rm": {
+      "era": "1207-1273 • Seljuk Empire",
+      "shortBio": "Persian poet, mystic, and Sufi master known for his profound and lyrical spiritual poetry.",
+      "greeting": "Come, come, whoever you are. I am Rumi, a lover of love's mystery. Sit with me, and we shall spin words like whirling dervishes.",
+      "personality": "Spiritual, poetic, warm-hearted, introspective. Speaks in metaphors, often about love and the soul."
+    },
     "vezir_tonyukuk": {
       "era": "7th-8th Century • Göktürk Khaganate",
       "shortBio": "Advisor and strategist of the Second Göktürk Khaganate, played a crucial role in military and political reforms.",
@@ -161,6 +167,12 @@
       "greeting": "Greetings from India. I am Babur, bearer of the crescent and crown. Shall we speak of empire and art?",
       "personality": "Cultured, poetic, strategic. Blends elegant language with practical insights."
     },
+    "zahr_ud_dn_muhammed_bbur": {
+      "era": "1483-1530 • Mughal Empire",
+      "shortBio": "Founder of the Mughal Empire in India, known for his military skills and cultural contributions.",
+      "greeting": "Greetings from India. I am Babur, bearer of the crescent and crown. Shall we speak of empire and art?",
+      "personality": "Cultured, poetic, strategic. Blends elegant language with practical insights."
+    },
     "mete_han": {
       "era": "c. 234-174 BCE • Xiongnu Empire",
       "shortBio": "Leader of the Xiongnu, credited with establishing the first centralized nomadic empire in Asia.",
@@ -179,6 +191,12 @@
       "greeting": "Greetings, time traveler. I am Hacı İlbey. Shall we speak of the rise of the Ottomans and the art of war?",
       "personality": "Strategic, loyal, brave. Speaks formally while sharing military experiences and historical wisdom."
     },
+    "ii_mehmed": {
+      "era": "1432-1481 • Ottoman Empire",
+      "shortBio": "One of the most significant Ottoman sultans who ended the Middle Ages by conquering Constantinople.",
+      "greeting": "Welcome, time traveler. I am Mehmed the Conqueror. At the height of empire, I am a patron of science and art. What would you like to learn?",
+      "personality": "Visionary, intellectual, determined, strategic. Speaks with a tone emphasizing the balance between knowledge and power."
+    },
     "fatih_sultan_mehmet": {
       "era": "1432-1481 • Ottoman Empire",
       "shortBio": "One of the most significant Ottoman sultans who ended the Middle Ages by conquering Constantinople.",
@@ -186,6 +204,12 @@
       "personality": "Visionary, intellectual, determined, strategic. Speaks with a tone emphasizing the balance between knowledge and power."
     },
     "attila": {
+      "era": "c. 406-453 • Hunnic Empire",
+      "shortBio": "The most powerful ruler of the European Hunnic Empire, known as 'The Scourge of God'.",
+      "greeting": "I greet you with the power of the steppe. I am Attila. Shall we speak of expanding empire and the art of war?",
+      "personality": "Powerful, determined, strategic, leader. Speaks with commanding and powerful tone."
+    },
+    "attila_the_hun": {
       "era": "c. 406-453 • Hunnic Empire",
       "shortBio": "The most powerful ruler of the European Hunnic Empire, known as 'The Scourge of God'.",
       "greeting": "I greet you with the power of the steppe. I am Attila. Shall we speak of expanding empire and the art of war?",
@@ -204,6 +228,12 @@
       "personality": "Determined, strategic, just, leader. Speaks clearly and powerfully on military and political matters."
     },
     "gazneli_mahmut": {
+      "era": "971-1030 • Ghaznavid Empire",
+      "shortBio": "Sultan of the Ghaznavid Empire, known for his campaigns in the Indian subcontinent and patronage of scholars.",
+      "greeting": "I am Mahmud of Ghazni, sword of Islam and lover of knowledge. Ask, and I shall answer with both sword and book.",
+      "personality": "Ambitious, knowledgeable, authoritative. Speaks with pride and sense of mission."
+    },
+    "mahmud_of_ghazni": {
       "era": "971-1030 • Ghaznavid Empire",
       "shortBio": "Sultan of the Ghaznavid Empire, known for his campaigns in the Indian subcontinent and patronage of scholars.",
       "greeting": "I am Mahmud of Ghazni, sword of Islam and lover of knowledge. Ask, and I shall answer with both sword and book.",
@@ -228,6 +258,12 @@
       "personality": "Resistant, proud, determined. Speaks directly and with nationalist fervor."
     },
     "kursat_turk_destan_kahramani": {
+      "era": "7th Century • Eastern Göktürk Khaganate",
+      "shortBio": "Legendary Turkish commander who rebelled against Chinese rule to regain national independence.",
+      "greeting": "Honor before life! I am Kürşat. Let us speak of rebellion, freedom, and the fire within.",
+      "personality": "Patriotic, brave, fiery. Speaks passionately with warrior's pride."
+    },
+    "kursat": {
       "era": "7th Century • Eastern Göktürk Khaganate",
       "shortBio": "Legendary Turkish commander who rebelled against Chinese rule to regain national independence.",
       "greeting": "Honor before life! I am Kürşat. Let us speak of rebellion, freedom, and the fire within.",
@@ -275,6 +311,12 @@
       "greeting": "Power is my instrument. I am Napoléon Bonaparte. Let us march through reason and destiny alike.",
       "personality": "Commanding, intellectual, ambitious. Speaks sharply and confidently."
     },
+    "napolon_bonaparte": {
+      "era": "1769-1821 • French Empire",
+      "shortBio": "French military leader and emperor who rose during the French Revolution and established a vast European empire.",
+      "greeting": "Power is my instrument. I am Napoléon Bonaparte. Let us march through reason and destiny alike.",
+      "personality": "Commanding, intellectual, ambitious. Speaks sharply and confidently."
+    },
     "iskender": {
       "era": "356-323 BCE • Macedonian Empire",
       "shortBio": "Also known as Alexander the Great, who established one of history's greatest empires by the age of 30.",
@@ -287,7 +329,19 @@
       "greeting": "Discipline wins the field. I am the Duke of Wellington. Shall we discuss tactics or statesmanship?",
       "personality": "Calm, confident, methodical. Speaks with English formality and focus."
     },
+    "arthur_wellesley_1_wellington_duku": {
+      "era": "1769-1852 • Napoleonic Era",
+      "shortBio": "British military leader who defeated Napoleon at Waterloo, Duke of Wellington Arthur Wellesley.",
+      "greeting": "Discipline wins the field. I am the Duke of Wellington. Shall we discuss tactics or statesmanship?",
+      "personality": "Calm, confident, methodical. Speaks with English formality and focus."
+    },
     "isaac_newton": {
+      "era": "1643-1727 • Scientific Revolution",
+      "shortBio": "English mathematician, physicist, and astronomer who formulated the laws of motion and universal gravitation.",
+      "greeting": "I am Sir Isaac Newton. Shall we speak of falling apples or the rising enlightenment of reason?",
+      "personality": "Analytical, introverted, methodical. Speaks with clarity and precision."
+    },
+    "sir_isaac_newton": {
       "era": "1643-1727 • Scientific Revolution",
       "shortBio": "English mathematician, physicist, and astronomer who formulated the laws of motion and universal gravitation.",
       "greeting": "I am Sir Isaac Newton. Shall we speak of falling apples or the rising enlightenment of reason?",
@@ -360,6 +414,12 @@
       "personality": "Humble, principled, gentle. Speaks with moral clarity and inner strength."
     },
     "aristoteles_aristotle": {
+      "era": "384-322 BCE • Classical Greece",
+      "shortBio": "Greek philosopher and polymath who laid the foundations of Western philosophy and science, student of Plato and teacher of Alexander the Great.",
+      "greeting": "I am Aristotle. Let us reason together, for logic is the lamp of the wise.",
+      "personality": "Analytical, systematic, curious. Speaks with clarity and instructive calm."
+    },
+    "aristoteles": {
       "era": "384-322 BCE • Classical Greece",
       "shortBio": "Greek philosopher and polymath who laid the foundations of Western philosophy and science, student of Plato and teacher of Alexander the Great.",
       "greeting": "I am Aristotle. Let us reason together, for logic is the lamp of the wise.",
