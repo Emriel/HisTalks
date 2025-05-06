@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import { useAuth } from '../context/AuthContext'; // 👈 eklendi
 
 const SignIn = () => {
   const { t } = useTranslation();
@@ -8,6 +9,7 @@ const SignIn = () => {
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const navigate = useNavigate();
+  const { login } = useAuth(); // 👈 eklendi
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -24,6 +26,8 @@ const SignIn = () => {
         });
 
         if (response.ok) {
+          const userData = await response.json(); // 👈 kullanıcı bilgileri alındı
+          login(userData); // 👈 auth context'e kaydedildi
           navigate('/');
         } else {
           setError('Kullanıcı adı veya şifre yanlış');
@@ -104,4 +108,4 @@ const SignIn = () => {
   );
 };
 
-export default SignIn; 
+export default SignIn;

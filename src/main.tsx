@@ -3,9 +3,12 @@ import { createRoot } from 'react-dom/client';
 import App from './App.tsx';
 import './index.css';
 import './utils/i18n';
+import { AuthProvider } from './context/AuthContext'; // 👈 bu satırı ekle
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <App />
+    <AuthProvider> {/* 👈 App'i sarmalayan context */}
+      <App />
+    </AuthProvider>
   </StrictMode>
 );

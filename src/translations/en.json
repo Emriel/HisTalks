@@ -6,9 +6,7 @@
   "language": "Language",
   "english": "English",
   "turkish": "Turkish",
-  "login": "Login",
-  "signup": "Sign Up",
-  "logout": "Logout",
+  "login": "Login",  
   "profile": "Profile",
   "settings": "Settings",
   "search": "Search",
@@ -433,5 +431,8 @@
     "privacy": "Privacy",
     "terms": "Terms",
     "contact": "Contact"
+  },
+  "logout": {
+    "submit": "Sign Out"
   }
 } 

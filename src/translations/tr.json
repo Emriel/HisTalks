@@ -7,8 +7,6 @@
   "english": "İngilizce",
   "turkish": "Türkçe",
   "login": "Giriş Yap",
-  "signup": "Kayıt Ol",
-  "logout": "Çıkış Yap",
   "profile": "Profil",
   "settings": "Ayarlar",
   "search": "Ara",
@@ -433,5 +431,8 @@
     "privacy": "Gizlilik",
     "terms": "Koşullar",
     "contact": "İletişim"
+  },
+  "logout": {
+    "submit": "Çıkış Yap"
   }
 } 
