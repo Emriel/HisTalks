@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { useChatContext } from '../context/ChatContext';
 import ChatMessage from './ChatMessage';
-import { ArrowLeft, Send, Mic, MicOff } from 'lucide-react';
+import { ArrowLeft, Send } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { Link, useNavigate } from 'react-router-dom';
 
@@ -9,10 +9,8 @@ const ChatInterface = () => {
   const { t } = useTranslation();
   const { messages, sendMessage, selectedCharacter, resetCharacter } = useChatContext();
   const [inputValue, setInputValue] = useState('');
-  const [isListening, setIsListening] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
-  const recognitionRef = useRef<SpeechRecognition | null>(null);
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -32,11 +30,6 @@ const ChatInterface = () => {
     await sendMessage(inputValue);
     setInputValue('');
     setIsLoading(false);
-  };
-
-  const toggleVoiceInput = () => {
-    // In a real implementation, this would connect to the Web Speech API
-    setIsListening(!isListening);
   };
 
   const getCharacterTranslationKey = (name: string) => {
@@ -122,16 +115,6 @@ const ChatInterface = () => {
             className="flex-grow px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#693d14] focus:border-[#693d14]"
             disabled={isLoading}
           />
-          <button
-            type="button"
-            onClick={toggleVoiceInput}
-            className={`p-2 rounded-full ${
-              isListening ? 'bg-red-500 text-white' : 'bg-gray-100 text-gray-600'
-            } hover:bg-gray-200 transition-colors`}
-            title={t(isListening ? 'chat.voice_input.stop' : 'chat.voice_input.start')}
-          >
-            {isListening ? <MicOff className="h-5 w-5" /> : <Mic className="h-5 w-5" />}
-          </button>
           <button
             type="submit"
             disabled={isLoading || inputValue.trim() === ''}
