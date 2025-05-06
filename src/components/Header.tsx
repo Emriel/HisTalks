@@ -2,12 +2,12 @@ import React from 'react';
 import { useChatContext } from '../context/ChatContext';
 import { Link, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { useAuth } from '../context/AuthContext'; // 👈 ekle
+import { useAuth } from '../context/AuthContext';
 
 const Header = () => {
   const { t } = useTranslation();
   const { selectedCharacter, resetCharacter } = useChatContext();
-  const { isAuthenticated, logout, user } = useAuth(); // 👈 auth durumu
+  const { isAuthenticated, logout, user } = useAuth();
   const navigate = useNavigate();
 
   const handleLogout = () => {
@@ -26,6 +26,7 @@ const Header = () => {
           <img src="/logo5.png" alt="HisTalks Logo" className="h-8 w-8" />
           <h1 className="text-2xl font-serif font-bold">HisTalks</h1>
         </Link>
+
         <div className="w-32">
           {selectedCharacter && (
             <div className="hidden md:block text-sm opacity-80">
@@ -34,7 +35,14 @@ const Header = () => {
             </div>
           )}
         </div>
-        <nav className="flex space-x-4">
+
+        <nav className="flex space-x-4 items-center">
+          {isAuthenticated && user && (
+            <span className="text-sm text-white bg-white/20 rounded px-2 py-1">
+              {user.username}
+            </span>
+          )}
+
           {!isAuthenticated ? (
             <>
               <Link to="/signin" className="text-sm font-medium text-white hover:text-amber-400">
