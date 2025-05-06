@@ -25,6 +25,8 @@
   "next": "Sonraki",
   "page": "Sayfa",
   "of": "/",
+  "select_all": "Hepsini Seç",
+  "clear_all": "Hepsini Kaldır",
   "category": {
     "history": "Tarih",
     "science": "Bilim",

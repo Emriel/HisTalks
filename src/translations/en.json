@@ -25,6 +25,8 @@
   "next": "Next",
   "page": "Page",
   "of": "of",
+  "select_all": "Select All",
+  "clear_all": "Clear All",
   "category": {
     "history": "History",
     "science": "Science",

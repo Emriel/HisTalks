@@ -142,7 +142,7 @@ const CharacterSelector = () => {
         <div className="relative">
           <button
             onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-              className="w-48 px-4 py-3 bg-white border border-gray-300 rounded-lg shadow-sm text-left flex items-center justify-between hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-[#693d14] focus:border-[#693d14]"
+              className="w-64 px-4 py-3 bg-white border border-gray-300 rounded-lg shadow-sm text-left flex items-center justify-between hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-[#693d14] focus:border-[#693d14]"
           >
             <span className="text-gray-700">
                 {selectedCategories.length === 0 ? t('all_categories') : `${selectedCategories.length} ${t('selected')}`}
@@ -151,24 +151,53 @@ const CharacterSelector = () => {
           </button>
 
           {isDropdownOpen && (
-              <div className="absolute z-10 w-48 mt-1 bg-white border border-gray-200 rounded-lg shadow-lg">
-              {categories.filter(cat => cat.id !== 'all').map((category) => (
-                <div
-                  key={category.id}
-                  className="px-4 py-2 hover:bg-gray-50 cursor-pointer flex items-center"
-                  onClick={() => toggleCategory(category.id)}
-                >
-                  <input
-                    type="checkbox"
-                    checked={selectedCategories.includes(category.id)}
-                    onChange={() => {}}
-                      className="h-4 w-4 text-[#693d14] rounded border-gray-300 focus:ring-[#693d14]"
-                  />
-                    <span className="ml-2 text-gray-700">{t(`category.${category.id}`)}</span>
+              <div className="absolute z-10 w-64 mt-1 max-h-52 overflow-y-auto bg-white border border-gray-200 rounded-lg shadow-lg scrollbar-thin scrollbar-thumb-[#693d14]/50 scrollbar-track-transparent">
+
+                {/* Seç / Temizle butonları */}
+                <div className="px-4 py-2 border-b border-gray-200 bg-gray-50">
+                  <button
+                    onClick={() => {
+                      const allCategoryIds = categories
+                        .filter((cat) => cat.id !== 'all')
+                        .map((cat) => cat.id);
+                      setSelectedCategories(allCategoryIds);
+                      setIsDropdownOpen(false);
+                      setCurrentPage(1);
+                    }}
+                    className="text-sm text-[#693d14] font-medium hover:underline mr-4"
+                  >
+                    {t('select_all')}
+                  </button>
+                  <button
+                    onClick={() => {
+                      setSelectedCategories([]);
+                      setIsDropdownOpen(false);
+                      setCurrentPage(1);
+                    }}
+                    className="text-sm text-red-600 font-medium hover:underline"
+                  >
+                    {t('clear_all')}
+                  </button>
                 </div>
-              ))}
-            </div>
-          )}
+
+                {/* Kategori listesi */}
+                {categories.filter(cat => cat.id !== 'all').map((category) => (
+                  <div
+                    key={category.id}
+                    className="px-4 py-2 hover:bg-gray-50 cursor-pointer flex items-center"
+                    onClick={() => toggleCategory(category.id)}
+                  >
+                    <input
+                      type="checkbox"
+                      checked={selectedCategories.includes(category.id)}
+                      onChange={() => {}}
+                      className="h-4 w-4 text-[#693d14] rounded border-gray-300 focus:ring-[#693d14]"
+                    />
+                    <span className="ml-2 text-gray-700">{t(`category.${category.id}`)}</span>
+                  </div>
+                ))}
+              </div>
+            )}
           </div>
         </div>
       </div>
