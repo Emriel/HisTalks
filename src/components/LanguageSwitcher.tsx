@@ -12,30 +12,30 @@ const LanguageSwitcher = () => {
   };
 
   return (
-    <div className="relative">
+    <div className="relative text-white">
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="w-48 px-4 py-3 bg-white border border-gray-300 rounded-lg shadow-sm text-left flex items-center justify-between hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-[#693d14] focus:border-[#693d14]"
+        className="flex items-center space-x-2 px-3 py-1 text-sm font-medium hover:text-amber-400 focus:outline-none"
       >
-        <span className="text-gray-700">{t('language')}</span>
-        <ChevronDown className="h-5 w-5 text-gray-400" />
+        <span>{t('language')}</span>
+        <ChevronDown className="h-4 w-4" />
       </button>
 
       {isOpen && (
-        <div className="absolute z-10 w-48 mt-1 bg-white border border-gray-200 rounded-lg shadow-lg">
+        <div className="absolute right-0 mt-2 w-32 bg-[#4d290f] border border-[#693d14] rounded shadow-md z-50">
           <button
             onClick={() => changeLanguage('en')}
-            className={`w-full px-4 py-2 text-left hover:bg-gray-50 ${
-              i18n.language === 'en' ? 'bg-[#693d14] text-white' : 'text-gray-700'
-            }`}
+            className={`block w-full text-left px-4 py-2 text-sm ${
+              i18n.language === 'en' ? 'text-amber-400 font-semibold' : 'text-white'
+            } hover:bg-[#5a3411]`}
           >
             {t('english')}
           </button>
           <button
             onClick={() => changeLanguage('tr')}
-            className={`w-full px-4 py-2 text-left hover:bg-gray-50 ${
-              i18n.language === 'tr' ? 'bg-[#693d14] text-white' : 'text-gray-700'
-            }`}
+            className={`block w-full text-left px-4 py-2 text-sm ${
+              i18n.language === 'tr' ? 'text-amber-400 font-semibold' : 'text-white'
+            } hover:bg-[#5a3411]`}
           >
             {t('turkish')}
           </button>
@@ -45,4 +45,4 @@ const LanguageSwitcher = () => {
   );
 };
 
-export default LanguageSwitcher; 
+export default LanguageSwitcher;

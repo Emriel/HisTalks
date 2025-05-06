@@ -3,6 +3,7 @@ import { useChatContext } from '../context/ChatContext';
 import { Link, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useAuth } from '../context/AuthContext';
+import LanguageSwitcher from './LanguageSwitcher'; // 👈 dil menüsü eklendi
 
 const Header = () => {
   const { t } = useTranslation();
@@ -37,12 +38,19 @@ const Header = () => {
         </div>
 
         <nav className="flex space-x-4 items-center">
+          {/* Dil menüsü */}
+          <div className="hidden md:block">
+            <LanguageSwitcher />
+          </div>
+
+          {/* Kullanıcı adı */}
           {isAuthenticated && user && (
             <span className="text-sm text-white bg-white/20 rounded px-2 py-1">
               {user.username}
             </span>
           )}
 
+          {/* Auth durumuna göre butonlar */}
           {!isAuthenticated ? (
             <>
               <Link to="/signin" className="text-sm font-medium text-white hover:text-amber-400">

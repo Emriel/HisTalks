@@ -3,7 +3,6 @@ import { useChatContext } from '../context/ChatContext';
 import { Search, ChevronDown, X } from 'lucide-react';
 import { historicalFigures, categories } from '../data/characters';
 import { useTranslation } from 'react-i18next';
-import LanguageSwitcher from './LanguageSwitcher';
 
 const CharacterSelector = () => {
   const { selectCharacter } = useChatContext();
@@ -171,7 +170,6 @@ const CharacterSelector = () => {
             </div>
           )}
           </div>
-          <LanguageSwitcher />
         </div>
       </div>
 
